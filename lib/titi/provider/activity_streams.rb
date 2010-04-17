@@ -17,6 +17,23 @@ module Titi
           hsh = self.to_hash
           hsh.to_xml :root => self.class.to_s.underscore.gsub(%r{.*/},'')
         end
+
+        def has_thingy thingy, *args, &block
+          thingy_klass  = ('ActivityStreams::'+thingy.to_s.classify).constantize
+          thingy_setter = "#{thingy}="
+          p [thingy, thingy_klass, thingy_setter]
+          self.send(thingy_setter, thingy_klass.new) unless self.send(thingy)
+          self.send(thingy).adapt *args, &block
+          self.send(thingy)
+        end
+
+        def method_missing meth, *args, &block
+          if (meth.to_s =~ /has_(\w+)/) && (self.respond_to?("#{$1}="))
+            has_thingy $1, *args, &block
+          else
+            super
+          end
+        end
       end
 
       Feed = Struct.new(
@@ -26,9 +43,9 @@ module Titi
         include Titi::Adaptor
         include Titi::Provider::ActivityStreams::Common
 
-        def adapt objs
-          self.entry = objs.map do |obj|
-            obj.to_activity_stream_entry
+        def adapt thingys
+          self.entry = thingys.map do |thingy|
+            thingy.to_activity_stream_entry
           end
         end
       end
@@ -52,7 +69,7 @@ module Titi
         :author,            # author           {"name"=>["misterflip"], "uri"=>["http://profile.myspace.com/index.cfm?fuseaction=user.viewprofile&friendid=24601"]}
         :mood,              #
         :source,
-        :object,            # object
+        :obj,               # object
         :target             # target
         )
       Entry.class_eval do
@@ -78,9 +95,10 @@ module Titi
       end
       Author = Actor
 
-      # ActivityStream object
+      # ActivityStream object.
+      # We can't call them 'Object' (ruby has a class like that already :)
       #   http://activitystrea.ms/spec/1.0/atom-activity-01.html#activityobjectelement
-      ActivityObject = Struct.new(
+      Obj = Struct.new(
         :id,
         :title,
         :content,
@@ -92,7 +110,7 @@ module Titi
         :object_type,
         :vevent
         )
-      ActivityObject.class_eval do
+      Obj.class_eval do
         include Titi::Adaptor
         include Titi::Provider::ActivityStreams::Common
       end

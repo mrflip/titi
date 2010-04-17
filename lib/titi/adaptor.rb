@@ -35,16 +35,19 @@ module Titi
     #     activity_obj.author    = ActivityStreams::Author.new(:name => status.user.name, :url => status.user.url)
     #   end
     # end
-    def adapt hsh={}, &block
-      self.attributes = hsh
+    def adapt *args, &block
+      hsh = args.extract_options!
+      args_hsh = Hash.zip(self.members[0...args.length], args)
+      self.attributes = hsh.merge(args_hsh)
       yield self if block
     end
 
     # The standard hack to construct class methods on a class that #include's this model
     module ClassMethods
       # created an object and then adopts from the given hash and block
-      def adapt hsh={}, &block
-        obj = self.new
+      def adapt *args, &block
+        hsh = args.extract_options!
+        obj = self.new *args
         obj.adapt(hsh, &block)
         obj
       end

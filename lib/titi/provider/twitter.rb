@@ -39,8 +39,8 @@ module Titi::Provider
           :published => created_at,
           :verb      => :post
           ) do |entry|
-          entry.author    = ActivityStreams::Author.new(user.name, user.url)
-          entry.object    = ActivityStreams::ActivityObject.adapt do |activity_obj|
+          entry.has_author user.name, user.url
+          entry.has_obj do |activity_obj|
             activity_obj.id        = id
             activity_obj.title     = text
             activity_obj.published = created_at

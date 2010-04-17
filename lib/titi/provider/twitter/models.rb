@@ -94,6 +94,7 @@ module Titi::Provider
       # virtual setter for user: If argument is not a Twitter::User, adapt it to
       # be a user (assuming it is a hash or a hash_like.
       def user= new_user
+        # return unless new_user
         new_user  = Twitter::User.adapt(new_user.to_hash) unless new_user.is_a?(Twitter::User)
         self[:user] = new_user
       end
