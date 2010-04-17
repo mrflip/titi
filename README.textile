@@ -56,6 +56,9 @@ Titi lets you write a straightforward and compact adaptor to activity stream for
     end
 </code></pre>
 
+
+Where the mapping is direct, you can use an attribute => attribute hash, as shown in the call to ActivityStreams::Entry.adapt. For anything more complex, you can run arbitrary code in the method's block _(the part within the do ... end segment)_
+
 Here's example output. _note: this isn't canonical activity streams format: the XML serialization needs work._
 
 <pre><code>
