@@ -2,8 +2,7 @@ require 'restclient'
 require 'json'
 require 'titi'
 require 'wukong'
-
-# require 'titi/provider/twitter'
+require 'active_support'
 
 # Dir['./**/*.rb'].each{|req| load req }^
 # $raw_json_str = RestClient.get 'http://twitter.com/users/show/mrflip.json'

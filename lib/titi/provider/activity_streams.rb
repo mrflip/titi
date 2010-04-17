@@ -3,12 +3,19 @@ module Titi
   module Provider
     #
     module ActivityStreams
+      # Some methods common to all ActivityStreams classes
       module Common
-        def published= date_time
-          self[:published] = DateTime.parse(date_time) rescue nil
+        def to_hash *args
+          hsh = super(*args)
+          hsh.each do |attr, val|
+            hsh[attr] = val.to_hash if val.respond_to?(:to_hash)
+          end
+          hsh
         end
-        def updated= date_time
-          self[:updated] = DateTime.parse(date_time) rescue nil
+
+        def to_xml *args
+          hsh = self.to_hash
+          hsh.to_xml :root => self.class.to_s.underscore.gsub(%r{.*/},'')
         end
       end
 
@@ -36,6 +43,13 @@ module Titi
         )
       Entry.class_eval do
         include Titi::Adaptor
+        include Titi::Provider::ActivityStreams::Common
+        def published= date_time
+          self[:published] = DateTime.parse(date_time) rescue nil
+        end
+        def updated= date_time
+          self[:updated] = DateTime.parse(date_time) rescue nil
+        end
       end
 
       # ActivityStream author
@@ -44,7 +58,10 @@ module Titi
         :name,
         :uri
         )
-      Actor.class_eval{ include Titi::Adaptor }
+      Actor.class_eval do
+        include Titi::Adaptor
+        include Titi::Provider::ActivityStreams::Common
+      end
       Author = Actor
 
       # ActivityStream object
@@ -61,7 +78,10 @@ module Titi
         :object_type,
         :vevent
         )
-      ActivityObject.class_eval{ include Titi::Adaptor }
+      ActivityObject.class_eval do
+        include Titi::Adaptor
+        include Titi::Provider::ActivityStreams::Common
+      end
     end
   end
 end

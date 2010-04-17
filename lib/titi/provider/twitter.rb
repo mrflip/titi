@@ -33,19 +33,19 @@ module Titi::Provider
       #
       def to_activity_stream_entry
         ActivityStreams::Entry.adapt(
-          :id        => id,
+          :id        => %Q{tag:twitter.com,2007:http://twitter.com/#{user.screen_name}/statuses/#{id}},
           :title     => text,
           :content   => text,
+          :published => created_at,
           :verb      => :post
           ) do |entry|
-          entry.published = created_at
-          entry.author    = ActivityStreams::Author.new(:name => user.name, :url => user.url)
+          entry.author    = ActivityStreams::Author.new(user.name, user.url)
           entry.object    = ActivityStreams::ActivityObject.adapt do |activity_obj|
             activity_obj.id        = id
             activity_obj.title     = text
             activity_obj.published = created_at
             activity_obj.updated   = created_at
-            activity_obj.author    = ActivityStreams::Author.new(:name => user.name, :url => user.url)
+            activity_obj.author    = entry.author
           end
         end
       end
