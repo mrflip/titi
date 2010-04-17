@@ -1,6 +1,5 @@
 module Titi
   module ParseTree
-
     #
     # construct the downstream part of a hash matcher
     #
@@ -26,7 +25,8 @@ module Titi
         MatchArray.new(spec[0].to_s, build_parse_tree(spec[1]))
       when String         then MatchFirstElement.new(spec)
       when Proc           then MatchProc.new(nil, spec)
-      when Regexp         then MatchRegexp.new(nil, spec, nil, :one => true)
+      when Regexp         then MatchRegexp.new(nil, spec, nil, :capture => 1)
+      when Symbol         then MatchAttribute.new(nil, spec, nil)
       else raise "Don't know how to parse #{spec.inspect}"
       end
     end
