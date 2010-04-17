@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{titi}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["mrflip"]
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.textile",
      "Rakefile",
      "VERSION",
+     "examples/twitter.rb",
      "lib/titi.rb",
      "lib/titi/adaptor.rb",
      "lib/titi/matcher.rb",
@@ -32,7 +33,6 @@ Gem::Specification.new do |s|
      "lib/titi/provider/activity_streams.rb",
      "lib/titi/provider/tripit.rb",
      "lib/titi/provider/twitter.rb",
-     "lib/titi/provider/twitter/example.rb",
      "lib/titi/provider/twitter/models.rb",
      "notes/jeweler-gen.sh",
      "spec/spec.opts",
@@ -47,7 +47,8 @@ Gem::Specification.new do |s|
   s.summary = %q{Emit and consume Activity Streams from a wide variety of sources}
   s.test_files = [
     "spec/spec_helper.rb",
-     "spec/titi_spec.rb"
+     "spec/titi_spec.rb",
+     "examples/twitter.rb"
   ]
 
   if s.respond_to? :specification_version then
