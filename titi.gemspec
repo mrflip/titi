@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{titi}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["mrflip"]
@@ -33,6 +33,7 @@ Gem::Specification.new do |s|
      "lib/titi/provider.rb",
      "lib/titi/provider/README.textile",
      "lib/titi/provider/activity_streams.rb",
+     "lib/titi/provider/activity_streams/feed.xml.erb",
      "lib/titi/provider/tripit.rb",
      "lib/titi/provider/twitter.rb",
      "lib/titi/provider/twitter/models.rb",
