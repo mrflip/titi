@@ -56,10 +56,8 @@ module Titi::Provider
       # end
 
       def created_at= date_time
-        p [:created_at, date_time]
         unless date_time.is_a?(DateTime)
           dt = DateTime.parse(date_time) rescue nil
-          p dt
         end
         self[:created_at] = dt
       end
