@@ -18,23 +18,22 @@ module Titi
     # Adopt attributes from given hash, and programatically-set attributes from block
     #
     # @example
-    # ActivityStreams::Entry.adapt(
-    #   :id        => status.id,
-    #   :title     => status.text,
-    #   :content   => status.text,
-    #   :verb      => :post
-    #   ) do |entry|
-    #   status_time     = Time.parse(status.created_at) rescue nil
-    #   entry.published = status_time
-    #   entry.author    = ActivityStreams::Author.new(:name => status.user.name, :url => status.user.url)
-    #   entry.object    = ActivityStreams::Object.adapt do |activity_obj|
-    #     activity_obj.id        = status.id
-    #     activity_obj.title     = status.text
-    #     activity_obj.published = status_time
-    #     activity_obj.updated   = status_time
-    #     activity_obj.author    = ActivityStreams::Author.new(:name => status.user.name, :url => status.user.url)
-    #   end
-    # end
+    #     ActivityStreams::Entry.adapt(
+    #       :id        => %Q{tag:twitter.com,2007:http://twitter.com/#{user.screen_name}/statuses/#{id}},
+    #       :title     => text,
+    #       :content   => text,
+    #       :published => created_at,
+    #       :verb      => :post
+    #       ) do |entry|
+    #       entry.has_author user.name, user.url
+    #       entry.has_obj do |activity_obj|
+    #         activity_obj.id        = id
+    #         activity_obj.title     = text
+    #         activity_obj.published = created_at
+    #         activity_obj.updated   = created_at
+    #         activity_obj.author    = entry.author
+    #       end
+    #     end
     def adapt *args, &block
       hsh = args.extract_options!
       args_hsh = Hash.zip(self.members[0...args.length], args)
