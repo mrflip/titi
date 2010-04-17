@@ -4,12 +4,15 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "titi"
-    gem.summary = %Q{Emit and consume Activity Streams from a wide variety of sources}
+    gem.name        = "titi"
+    gem.summary     = %Q{Emit and consume Activity Streams from a wide variety of sources}
     gem.description = %Q{Facade adapting apis to activity streams spec}
-    gem.email = "flip@infochimps.org"
-    gem.homepage = "http://github.com/mrflip/titi"
-    gem.authors = ["mrflip"]
+    gem.email       = "flip@infochimps.org"
+    gem.homepage    = "http://github.com/mrflip/titi"
+    gem.authors     = ["mrflip"]
+    gem.add_dependency "restclient",     ">= 0.0.0"
+    gem.add_dependency "wukong",         ">= 0.0.0"
+    gem.add_dependency "active_support", ">= 0.0.0"
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.add_development_dependency "yard", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
