@@ -1,5 +1,7 @@
 module Titi
   module Provider
+    autoload :ActivityStreams, 'titi/provider/activity_streams'
+    #
     autoload :Twitter   , 'titi/provider/twitter'
     autoload :Gowalla   , 'titi/provider/gowalla'
     autoload :Foursquare, 'titi/provider/foursquare'
