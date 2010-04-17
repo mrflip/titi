@@ -1,0 +1,27 @@
+<feed>
+  <entry>
+    <title><%= entry.title %></title>
+    <content type="html"><%= entry.content %></content>
+    <id><%= entry.id %></id>
+    <published><%= entry.published %></published>
+    <updated  ><%= entry.updated   %></updated>
+    <link type="text/html"   rel="alternate" href="<%= entry.alt_link %>"/>
+    <link type="image/pjpeg" rel="image"     href="<%= entry.img_link %>"/>
+    <author>
+      <name><%= entry.author.name %></name>
+      <uri><%=  entry.author.url %></uri>
+    </author>
+    <activity:verb><%= entry.verb %></activity:verb>
+    <activity:object>
+      <id><%= entry.object.id %></id>
+      <title><%= entry.object.title %></title>
+      <link type="text/html" rel="alternate" href="<%= entry.object.alt_link %>"/>
+      <published><%= entry.object.published %></published>
+      <updated  ><%= entry.object.updated %></updated>
+      <author>
+        <name><%= entry.object.author.name %></name>
+        <uri ><%= entry.object.author.url  %></uri>
+      </author>
+    </activity:object>
+  </entry>
+</feed>
