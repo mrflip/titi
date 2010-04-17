@@ -19,6 +19,20 @@ module Titi
         end
       end
 
+      Feed = Struct.new(
+        :entry
+        )
+      Feed.class_eval do
+        include Titi::Adaptor
+        include Titi::Provider::ActivityStreams::Common
+
+        def adapt objs
+          self.entry = objs.map do |obj|
+            obj.to_activity_stream_entry
+          end
+        end
+      end
+
       # An ActivityStream entry
       #   http://activitystrea.ms/spec/1.0/atom-activity-01.html#activityentries
       Entry = Struct.new(
