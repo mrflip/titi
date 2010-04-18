@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">scobleizer timeline</title>
+  <id>http://identi.ca/scobleizer</id>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2009-05-15T15:44:26.000Z</published>
+    <updated>2009-05-15T15:44:26.000Z</updated>
+    <id>http://identi.ca/notice/4274635</id>
+    <title type="text">scobleizer: Trying out identi.ca again. Usually I spend my time on http://www.friendfeed.com/scobleizer but poking around here to find an alt to Twitter</title>
+    <summary type="html">Trying out identi.ca again. Usually I spend my time on http://www.friendfeed.com/scobleizer but poking around here to find an alt to Twitter</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">Trying out identi.ca again. Usually I spend my time on http://www.friendfeed.com/scobleizer but poking around here to find an alt to Twitter</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/4274635"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/4274635"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2009-01-26T11:59:16.000Z</published>
+    <updated>2009-01-26T11:59:16.000Z</updated>
+    <id>http://identi.ca/notice/1980652</id>
+    <title type="text">scobleizer: why should I care? Just to be politically correct with a few people? I guess I should be like everyone else and turn on ping.fm for this.</title>
+    <summary type="html">why should I care? Just to be politically correct with a few people? I guess I should be like everyone else and turn on ping.fm for this.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">why should I care? Just to be politically correct with a few people? I guess I should be like everyone else and turn on ping.fm for this.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/1980652"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/1980652"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2009-01-26T11:24:32.000Z</published>
+    <updated>2009-01-26T11:24:32.000Z</updated>
+    <id>http://identi.ca/notice/1980331</id>
+    <title type="text">scobleizer: @jimh and @andyc you're right. I just haven't gotten into identi.ca. Not sure I'll be back with attitudes like yours.</title>
+    <summary type="html">@jimh and @andyc you're right. I just haven't gotten into identi.ca. Not sure I'll be back with attitudes like yours.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@jimh and @andyc you're right. I just haven't gotten into identi.ca. Not sure I'll be back with attitudes like yours.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/1980331"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/1980331"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-25T06:23:59.000Z</published>
+    <updated>2008-07-25T06:23:59.000Z</updated>
+    <id>http://identi.ca/notice/153295</id>
+    <title type="text">scobleizer: Doing WorkFast.tv requires me to get some sleep. It's amazing how live TV is much more draining than anything else I do.</title>
+    <summary type="html">Doing WorkFast.tv requires me to get some sleep. It's amazing how live TV is much more draining than anything else I do.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">Doing WorkFast.tv requires me to get some sleep. It's amazing how live TV is much more draining than anything else I do.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/153295"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/153295"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-25T06:23:16.000Z</published>
+    <updated>2008-07-25T06:23:16.000Z</updated>
+    <id>http://identi.ca/notice/153292</id>
+    <title type="text">scobleizer: @andyk It's only 11:22 p.m. in California, so not too late. If I'm still here at 1 am make sure I get to bed because we have WorkFastTV</title>
+    <summary type="html">@andyk It's only 11:22 p.m. in California, so not too late. If I'm still here at 1 am make sure I get to bed because we have WorkFastTV</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@andyk It's only 11:22 p.m. in California, so not too late. If I'm still here at 1 am make sure I get to bed because we have WorkFastTV</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/153292"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/153292"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-25T06:21:46.000Z</published>
+    <updated>2008-07-25T06:21:46.000Z</updated>
+    <id>http://identi.ca/notice/153280</id>
+    <title type="text">scobleizer: @karoli I thought all the cool kids are over on Plurk. I was just coming here to hang out with the geeks and the scientists.</title>
+    <summary type="html">@karoli I thought all the cool kids are over on Plurk. I was just coming here to hang out with the geeks and the scientists.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@karoli I thought all the cool kids are over on Plurk. I was just coming here to hang out with the geeks and the scientists.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/153280"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/153280"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-25T06:20:55.000Z</published>
+    <updated>2008-07-25T06:20:55.000Z</updated>
+    <id>http://identi.ca/notice/153271</id>
+    <title type="text">scobleizer: @micah yeah, I am just reading all my Google Reader feeds and it's just very exhausting. Finding a way to add value to this world is hard.</title>
+    <summary type="html">@micah yeah, I am just reading all my Google Reader feeds and it's just very exhausting. Finding a way to add value to this world is hard.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@micah yeah, I am just reading all my Google Reader feeds and it's just very exhausting. Finding a way to add value to this world is hard.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/153271"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/153271"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-25T06:19:52.000Z</published>
+    <updated>2008-07-25T06:19:52.000Z</updated>
+    <id>http://identi.ca/notice/153263</id>
+    <title type="text">scobleizer: @micah: I call this the World Wide Talk Show. We all are hosts and it goes on all day and night! :-)</title>
+    <summary type="html">@micah: I call this the World Wide Talk Show. We all are hosts and it goes on all day and night! :-)</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@micah: I call this the World Wide Talk Show. We all are hosts and it goes on all day and night! :-)</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/153263"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/153263"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-25T06:15:39.000Z</published>
+    <updated>2008-07-25T06:15:39.000Z</updated>
+    <id>http://identi.ca/notice/153239</id>
+    <title type="text">scobleizer: @narkeeso I'm just kidding about the wife and kid thing. They know where to find me. And, anyway, won't these be in Google soon?</title>
+    <summary type="html">@narkeeso I'm just kidding about the wife and kid thing. They know where to find me. And, anyway, won't these be in Google soon?</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@narkeeso I'm just kidding about the wife and kid thing. They know where to find me. And, anyway, won't these be in Google soon?</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/153239"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/153239"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-25T06:13:05.000Z</published>
+    <updated>2008-07-25T06:13:05.000Z</updated>
+    <id>http://identi.ca/notice/153228</id>
+    <title type="text">scobleizer: @deerpig it's nice being anonymous once in a while, yes. But I find more good things come to me when I just am myself.</title>
+    <summary type="html">@deerpig it's nice being anonymous once in a while, yes. But I find more good things come to me when I just am myself.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@deerpig it's nice being anonymous once in a while, yes. But I find more good things come to me when I just am myself.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/153228"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/153228"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-25T06:03:43.000Z</published>
+    <updated>2008-07-25T06:03:43.000Z</updated>
+    <id>http://identi.ca/notice/153188</id>
+    <title type="text">scobleizer: identi.ca is one place my wife and son don't yet hang out. So it's one place I can escape and be myself. Heheh.</title>
+    <summary type="html">identi.ca is one place my wife and son don't yet hang out. So it's one place I can escape and be myself. Heheh.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">identi.ca is one place my wife and son don't yet hang out. So it's one place I can escape and be myself. Heheh.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/153188"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/153188"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-23T21:38:09.000Z</published>
+    <updated>2008-07-23T21:38:09.000Z</updated>
+    <id>http://identi.ca/notice/141617</id>
+    <title type="text">scobleizer: @halley nope, not planning on being in Cape Cod anytime soon. Boston in September, though!</title>
+    <summary type="html">@halley nope, not planning on being in Cape Cod anytime soon. Boston in September, though!</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@halley nope, not planning on being in Cape Cod anytime soon. Boston in September, though!</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/141617"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/141617"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-23T17:46:06.000Z</published>
+    <updated>2008-07-23T17:46:06.000Z</updated>
+    <id>http://identi.ca/notice/139864</id>
+    <title type="text">scobleizer: @loic now that you've gotten me totally addicted to Twhirl, I really want it on iPhone since I do 40% of my SN'ing stuff on the iPhone.</title>
+    <summary type="html">@loic now that you've gotten me totally addicted to Twhirl, I really want it on iPhone since I do 40% of my SN'ing stuff on the iPhone.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@loic now that you've gotten me totally addicted to Twhirl, I really want it on iPhone since I do 40% of my SN'ing stuff on the iPhone.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/139864"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/139864"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-23T17:45:25.000Z</published>
+    <updated>2008-07-23T17:45:25.000Z</updated>
+    <id>http://identi.ca/notice/139859</id>
+    <title type="text">scobleizer: @micah I manually subscribed to you.</title>
+    <summary type="html">@micah I manually subscribed to you.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@micah I manually subscribed to you.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/139859"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/139859"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-23T17:41:05.000Z</published>
+    <updated>2008-07-23T17:41:05.000Z</updated>
+    <id>http://identi.ca/notice/139822</id>
+    <title type="text">scobleizer: @tabrez yeah, you're right. If you followed me, and want me to follow you back, unsubscribe and resubscribe and I'll auto follow you.</title>
+    <summary type="html">@tabrez yeah, you're right. If you followed me, and want me to follow you back, unsubscribe and resubscribe and I'll auto follow you.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@tabrez yeah, you're right. If you followed me, and want me to follow you back, unsubscribe and resubscribe and I'll auto follow you.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/139822"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/139822"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-23T17:32:57.000Z</published>
+    <updated>2008-07-23T17:32:57.000Z</updated>
+    <id>http://identi.ca/notice/139749</id>
+    <title type="text">scobleizer: @evan I just turned on autosubscribe. Thanks!</title>
+    <summary type="html">@evan I just turned on autosubscribe. Thanks!</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@evan I just turned on autosubscribe. Thanks!</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/139749"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/139749"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-23T17:09:06.000Z</published>
+    <updated>2008-07-23T17:09:06.000Z</updated>
+    <id>http://identi.ca/notice/139574</id>
+    <title type="text">scobleizer: @millette I like Identi.ca better than Plurk, yes. I just don't like the UI over there. I bet Plurk will be a lot more popular, though.</title>
+    <summary type="html">@millette I like Identi.ca better than Plurk, yes. I just don't like the UI over there. I bet Plurk will be a lot more popular, though.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@millette I like Identi.ca better than Plurk, yes. I just don't like the UI over there. I bet Plurk will be a lot more popular, though.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/139574"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/139574"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-23T17:05:17.000Z</published>
+    <updated>2008-07-23T17:05:17.000Z</updated>
+    <id>http://identi.ca/notice/139549</id>
+    <title type="text">scobleizer: Alright, Identi.ca is supported on FriendFeed and Twhirl supports XMPP with identi.ca. Translation: I'll be here a lot more often!</title>
+    <summary type="html">Alright, Identi.ca is supported on FriendFeed and Twhirl supports XMPP with identi.ca. Translation: I'll be here a lot more often!</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">Alright, Identi.ca is supported on FriendFeed and Twhirl supports XMPP with identi.ca. Translation: I'll be here a lot more often!</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/139549"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/139549"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-07T08:58:28.000Z</published>
+    <updated>2008-07-07T08:58:28.000Z</updated>
+    <id>http://identi.ca/notice/39137</id>
+    <title type="text">scobleizer: Nice, identi.ca now has replies. Looking good!</title>
+    <summary type="html">Nice, identi.ca now has replies. Looking good!</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">Nice, identi.ca now has replies. Looking good!</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/39137"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/39137"/>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <published>2008-07-07T08:58:07.000Z</published>
+    <updated>2008-07-07T08:58:07.000Z</updated>
+    <id>http://identi.ca/notice/39134</id>
+    <title type="text">scobleizer: @kentbrew no, but new services need to have policies for how they'll handle trademark violations, just like domain registrars need to.</title>
+    <summary type="html">@kentbrew no, but new services need to have policies for how they'll handle trademark violations, just like domain registrars need to.</summary>
+    <service:provider>
+      <name>identica</name>
+      <uri>http://identica.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/identica.png</icon>
+    </service:provider>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <content type="text">@kentbrew no, but new services need to have policies for how they'll handle trademark violations, just like domain registrars need to.</content>
+      <link rel="alternate" type="text/html" href="http://identi.ca/notice/39134"/>
+    </activity:object>
+    <activity:actor>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <title type="text">scobleizer</title>
+    </activity:actor>
+    <link href="http://identi.ca/notice/39134"/>
+  </entry>
+</feed>
