@@ -36,7 +36,7 @@ module Titi::Provider::ActivityStreams
     end
 
     def has_thingy thingy, *args, &block
-      thingy_klass  = ('ActivityStreams::'+thingy.to_s.camelize).constantize
+      thingy_klass  = ('Titi::Provider::ActivityStreams::'+thingy.to_s.camelize).constantize
       thingy_setter = "#{thingy}="
       self.send(thingy_setter, thingy_klass.new) unless self.send(thingy)
       self.send(thingy).adapt *args, &block

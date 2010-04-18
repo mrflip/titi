@@ -106,6 +106,10 @@ module Titi::Provider
         adapt(raw_status)
       end
 
+      def self.from_file filename
+        adapt(super(filename))
+      end
+
     end
   end
 end
