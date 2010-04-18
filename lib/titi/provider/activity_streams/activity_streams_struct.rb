@@ -1,7 +1,6 @@
 module Titi::Provider::ActivityStreams
   class ActivityStreamsStruct < Struct
     include Titi::Adaptor
-    include Titi::Provider::ActivityStreams::Common
 
     # Merge given attributes into the hash
     def attributes= hsh
@@ -39,7 +38,6 @@ module Titi::Provider::ActivityStreams
     def has_thingy thingy, *args, &block
       thingy_klass  = ('ActivityStreams::'+thingy.to_s.camelize).constantize
       thingy_setter = "#{thingy}="
-      p [thingy, thingy_klass, thingy_setter]
       self.send(thingy_setter, thingy_klass.new) unless self.send(thingy)
       self.send(thingy).adapt *args, &block
       self.send(thingy)

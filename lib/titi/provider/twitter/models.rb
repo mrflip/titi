@@ -90,6 +90,7 @@ module Titi::Provider
     Status.class_eval do
       include Titi::Provider
       include Titi::Adaptor
+      include Titi::Fetcher::Json
 
       # virtual setter for user: If argument is not a Twitter::User, adapt it to
       # be a user (assuming it is a hash or a hash_like.
@@ -99,19 +100,12 @@ module Titi::Provider
         self[:user] = new_user
       end
 
-
-      # Call the twitter API and fetch tweet with given ID
-      #
-      # @example
-      #   tweet = Status.get(12233609555)
-      #   tweet.text
-      #   #=> "THANK GOODNESS THE LIBRARY OF CONGRESS HAS UNDERSTOOD THE IMPORTANCE OF MY TWEETS what do you mean others are getting in too"
-      #
-      def self.get status_id
-        raw_json_str = RestClient.get "http://twitter.com/statuses/show/#{status_id}.json"
-        raw_status = JSON.load(raw_json_str.to_s)
+      # Create a new status by fetching the given status_id via the 'statuses/show' API call
+      def self.fetch_status status_id
+        raw_status = get "http://twitter.com/statuses/show/#{status_id}.json"
         adapt(raw_status)
       end
+
     end
   end
 end

@@ -1,4 +1,3 @@
-require 'wukong'
 module Titi
   module Provider
     autoload :ActivityStreams, 'titi/provider/activity_streams'

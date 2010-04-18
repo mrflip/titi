@@ -6,4 +6,5 @@ require 'erubis'
 module Titi
   autoload :Provider,  'titi/provider'
   autoload :Adaptor,   'titi/adaptor'
+  autoload :Fetcher,   'titi/fetcher'
 end

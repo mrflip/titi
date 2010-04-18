@@ -4,7 +4,7 @@ module Titi::Provider::ActivityStreams
     )
   Feed.class_eval do
     # Location of the .erb file for rendering pretty activity streams XML
-    ACTIVITY_STREAMS_TEMPLATE = File.join(File.dirname(__FILE__)+'/activity_streams/feed.xml.erb')
+    ACTIVITY_STREAMS_TEMPLATE = File.join(File.dirname(__FILE__)+'/feed.xml.erb')
 
     def entries
       [entry].flatten
