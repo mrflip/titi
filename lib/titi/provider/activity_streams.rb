@@ -66,7 +66,7 @@ module Titi
         :updated,           # date updated
         #
         :category,          # type of entry
-        :verb,              # action it implies:
+        :activity_verb,     # action it implies:
         :sync,              # sync
         :rank,              # rank
         #
