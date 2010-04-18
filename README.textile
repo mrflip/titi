@@ -105,30 +105,21 @@ Here's example output. _note: this isn't canonical activity streams format: the 
 
 h2. Supported Feeds
 
-The goal is to cover all the following services.  
+The goal is to cover all the following services. Thanks to "Cliqset":http://feedproxy.cliqset.com/feed/selection and Rob Dolin for the list:
 
-# # from Rob Dolin, a list:
-# {
-# :text_status => %w[ Twitter         StatusNet       Plurk           AIM             WlMessenger                                            ],
-# :location    => %w[ Gowalla         Foursquare      Tripit          Yelp            Qype            UrbanSpoon      Brightkite      Whirl  ],
-# :social      => %w[ Facebook        MySpace         LinkedIn        Xing            Plaxo                                                  ],
-# :music       => %w[ LastFm          Pandora         Zune            iLike                                                                  ],
-# :bookmarking => %w[ Digg            StumbleUpon     Delicious       Facebook                                                               ],
-# :video       => %w[ YouTube         DailyMotion     Hulu            BuddyTv         SkyDrive                                               ],
-# :gaming      => %w[ Zynga           Playdom         MsgrGames                                                                              ],
-# :photos      => %w[ Flickr          Photobucket     MetroFlog       Fotolog         Picasa          WlSkyDrive                             ],
-# :blogging    => %w[ Blogger         WordPress       TypePad         MySpace         MoveableType    WlSpaces                               ],
-# }
-#
-# # See also: http://feedproxy.cliqset.com/feed/selection
-# {
-# Social       => %w[ AvatarsUnited Bebo BrightKite Friendster FriendFeed GamerDNA Gather hi5 Hyves Identica Jaiku Multiply Netlog Plurk Raptr Skyrock Twitter ],
-# Blogging     => %w[ Ameba Baidu Blogger CustomFeed Douban LiveJournal Posterous Tumblr WordPress Xanga ],
-# Bookmarking  => %w[ Delicious Digg Diigo GoogleReader Hatena Meneame Mixx Newsvine Propeller Reddit StumbleUpon Twine ],
-# Media        => %w[ 12seconds BlipFm BlipTv Buzznet Cinchcast Dailymotion DeviantArt Flickr Fotolog FunnyOrDie Hulu iLike Joost LastFm MetaCafe MobyPicture Pandora Photobucket Photocase Picasa Qik Revver SlideShare Smotri SmugMug VisualizeUs Vimeo YouTube Zooomr ],
-# Reviews      => %w[ Blippr Corkd Flixster Goodreads LibraryThing Qype Readernaut Yelp  ],
-# }
-
+<pre><code>
+  :social           => %w[ AvatarsUnited   Bebo            Brightkite      Friendster      Friendfeed      GamerDna        Gather          Hi5             Hyves           Identica
+                           Jaiku           Multiply        Myspace         Netlog          Plurk           Raptr           Skyrock         Twitter         Facebook        LinkedIn        Plaxo            Xing                                      ],
+  :blogging         => %w[ Ameba           Baidu           Blogger         Douban          Livejournal     Posterous       Tumblr          Wordpress       Xanga           TypePad         MoveableType    WlSpaces                                   ],
+  :bookmarking      => %w[ Delicious       Digg            Diigo           GoogleReader    Hatena          Meneame         Mixx            Newsvine        Propeller       Reddit          Stumbleupon     Twine                                      ],
+  :music            => %w[ Blipfm          Buzznet         Ilike           Lastfm          Pandora         Zooomr          Zune                                                                                                                       ],
+  :video            => %w[ BuddyTv         TwelveSeconds   Bliptv          Cinchcast       DailyMotion     FunnyOrDie      Hulu            Joost           Metacafe        Qik             Revver          Vimeo           Youtube                    ],
+  :photos           => %w[ DeviantArt      Flickr          Fotolog         MobyPicture     Photobucket     Picasa          Photocase       Slideshare      Smotri          Smugmug         Visualizeus     MetroFlog                       WlSkyDrive ],
+  :reviews          => %w[ Blippr          Corkd           Flixster        Goodreads       Librarything    Qype            Readernaut      Yelp                                                                                                       ],
+  :messengers       => %w[ AIM                             WlMessenger                                                                                                                                                                                ],
+  :location         => %w[ Gowalla         Foursquare      Tripit          UrbanSpoon       Whirl                                                                                                                                                     ],
+  :gaming           => %w[ Zynga           Playdom         MsgrGames                                                                                                                                                                                  ],
+</code></pre>
 
 
 h2. Copyright
