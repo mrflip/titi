@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{titi}
-  s.version = "0.0.4"
+  s.version = "0.0.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["mrflip"]
@@ -33,10 +33,22 @@ Gem::Specification.new do |s|
      "lib/titi/provider.rb",
      "lib/titi/provider/README.textile",
      "lib/titi/provider/activity_streams.rb",
+     "lib/titi/provider/activity_streams/README.textile",
      "lib/titi/provider/activity_streams/feed.xml.erb",
+     "lib/titi/provider/delicious/README.textile",
+     "lib/titi/provider/flickr/README.textile",
+     "lib/titi/provider/flickr/models.rb",
+     "lib/titi/provider/generic_rss.rb",
+     "lib/titi/provider/gowalla/README.textile",
+     "lib/titi/provider/plancast/README.textile",
      "lib/titi/provider/tripit.rb",
+     "lib/titi/provider/tumblr/README.textile",
      "lib/titi/provider/twitter.rb",
      "lib/titi/provider/twitter/models.rb",
+     "lib/titi/provider/twitter_rss/README.textile",
+     "lib/titi/provider/twitter_rss/models.rb",
+     "lib/titi/provider/weather_gov/README.textile",
+     "lib/titi/provider/youtube/README.textile",
      "notes/jeweler-gen.sh",
      "spec/spec.opts",
      "spec/spec_helper.rb",
