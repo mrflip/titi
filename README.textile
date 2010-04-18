@@ -2,12 +2,12 @@ h1. titi: Agile Monkeying around with Activity Streams
 
 Titi is a first stab at a universal ActivityStream interface.
 
-h3. BUGS:
+h3. How you can help
 
-* The XML output isn't activity stream format: needs namespaces, much more
+* Give the coders something to target: a) Pick an API or feed to add. For ideas, choose one not yet implemented from "Supported Feeds" list, below. b) Get a sample of the raw API or feed output (use your own account so noone files a copyright violation bug report). c) create an appropriately-named file, say @spec/data/providers/PROVIDER_NAME/PROVIDER_FEED_NAME-raw_feed.xml@ or @spec/data/providers/PROVIDER_NAME/PROVIDER_FEED_NAME-raw_api.json@ or whatever. d) If that feed is not yet in activity_streams format, use the raw sample to create an example activity_streams output. e) Issue a pull request.
+* Take an API or feed that has example input and output and code its interface.
 
-
-h3. Example
+h2. Example
 
 Let's define a super-simple twitter user and status model:
 
@@ -102,6 +102,34 @@ Here's example output. _note: this isn't canonical activity streams format: the 
           <updated nil="true"></updated>
         </entry>
 </code></pre>
+
+h2. Supported Feeds
+
+The goal is to cover all the following services.  
+
+# # from Rob Dolin, a list:
+# {
+# :text_status => %w[ Twitter         StatusNet       Plurk           AIM             WlMessenger                                            ],
+# :location    => %w[ Gowalla         Foursquare      Tripit          Yelp            Qype            UrbanSpoon      Brightkite      Whirl  ],
+# :social      => %w[ Facebook        MySpace         LinkedIn        Xing            Plaxo                                                  ],
+# :music       => %w[ LastFm          Pandora         Zune            iLike                                                                  ],
+# :bookmarking => %w[ Digg            StumbleUpon     Delicious       Facebook                                                               ],
+# :video       => %w[ YouTube         DailyMotion     Hulu            BuddyTv         SkyDrive                                               ],
+# :gaming      => %w[ Zynga           Playdom         MsgrGames                                                                              ],
+# :photos      => %w[ Flickr          Photobucket     MetroFlog       Fotolog         Picasa          WlSkyDrive                             ],
+# :blogging    => %w[ Blogger         WordPress       TypePad         MySpace         MoveableType    WlSpaces                               ],
+# }
+#
+# # See also: http://feedproxy.cliqset.com/feed/selection
+# {
+# Social       => %w[ AvatarsUnited Bebo BrightKite Friendster FriendFeed GamerDNA Gather hi5 Hyves Identica Jaiku Multiply Netlog Plurk Raptr Skyrock Twitter ],
+# Blogging     => %w[ Ameba Baidu Blogger CustomFeed Douban LiveJournal Posterous Tumblr WordPress Xanga ],
+# Bookmarking  => %w[ Delicious Digg Diigo GoogleReader Hatena Meneame Mixx Newsvine Propeller Reddit StumbleUpon Twine ],
+# Media        => %w[ 12seconds BlipFm BlipTv Buzznet Cinchcast Dailymotion DeviantArt Flickr Fotolog FunnyOrDie Hulu iLike Joost LastFm MetaCafe MobyPicture Pandora Photobucket Photocase Picasa Qik Revver SlideShare Smotri SmugMug VisualizeUs Vimeo YouTube Zooomr ],
+# Reviews      => %w[ Blippr Corkd Flixster Goodreads LibraryThing Qype Readernaut Yelp  ],
+# }
+
+
 
 h2. Copyright
 
