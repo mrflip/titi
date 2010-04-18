@@ -7,9 +7,9 @@ id
 entry                           xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/"
   activity:verb                 post
   id                            item.guid
+  title                         item.title
   published                     item.pubDate
   updated                       [whatever]
-  title                         item.title
   summary                       item.description
   link_alt                      
   link_enclosure                

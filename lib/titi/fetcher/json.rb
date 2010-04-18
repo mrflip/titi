@@ -1,3 +1,4 @@
+require 'json'
 module Titi::Fetcher
   module Json
     module ClassMethods

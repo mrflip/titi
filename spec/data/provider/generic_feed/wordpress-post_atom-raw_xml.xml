@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xml:lang="en" xml:base="http://blog.infochimps.org/wp-atom.php">
+  <title type="text">blog.infochimps.org</title>
+  <subtitle type="text">Organizing huge information resources</subtitle>
+  <updated>2010-04-12T16:12:50Z</updated>
+  <generator uri="http://wordpress.org/" version="2.8.6">WordPress</generator>
+  <link rel="alternate" type="text/html" href="http://blog.infochimps.org"/>
+  <id>http://blog.infochimps.org/feed/atom/</id>
+  <link rel="self" type="application/atom+xml" href="http://blog.infochimps.org/feed/atom/"/>
+  <entry>
+    <author>
+      <name>maegan</name>
+    </author>
+    <title type="html"><![CDATA[Our 7 Most Popular Data Categories]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.infochimps.org/2010/04/12/top-7-data-categories/"/>
+    <id>http://blog.infochimps.org/?p=585</id>
+    <updated>2010-04-12T16:12:50Z</updated>
+    <published>2010-04-12T16:12:09Z</published>
+    <category scheme="http://blog.infochimps.org" term="datasets"/>
+    <category scheme="http://blog.infochimps.org" term="infochimps.org"/>
+    <category scheme="http://blog.infochimps.org" term="main"/>
+    <summary type="html"><![CDATA[As a marketplace for data, people often ask us what are the most popular types of data.  Interestingly, the answer isn&#8217;t very intuitive.  For example, who would have guessed that one of our most downloaded datasets is a crossword puzzle word list?  With this in mind, we decided to investigate and come [...]]]></summary>
+    <content type="html" xml:base="http://blog.infochimps.org/2010/04/12/top-7-data-categories/"><![CDATA[<p>As a marketplace for data, people often ask us what are the most popular types of data.  Interestingly, the answer isn&#8217;t very intuitive.  For example, who would have guessed that one of our most downloaded datasets is a <a href="http://infochimps.org/datasets/word-list---100000-official-crossword-words-excel-readable">crossword puzzle word list</a>?  With this in mind, we decided to investigate and come up with a more complete answer.</p>
+<p>Using metrics from the <a href="infochimps.org">Infochimps website</a>, such as search queries, downloaded content, <a href="http://infochimps.org/dataset_requests">data requests</a>, page views, and so forth, we came up with a list of the top 7 searched for data categories:</p>
+<p>1. <a href="http://infochimps.org/tags/Social">Social Networks</a><br />
+2. <a href="http://infochimps.org/search?query=economics">Economics</a> &amp; <a href="http://infochimps.org/search?query=finance">Finance</a><br />
+3. <a href="http://infochimps.org/search?query=demographics">Demographics</a><br />
+4. <a href="http://infochimps.org/search?query=education&amp;commit=">Education</a><br />
+5. <a href="http://infochimps.org/search?query=sports">Sports</a><br />
+6. <a href="http://infochimps.org/search?query=geography">Geography</a><br />
+7. <a href="http://infochimps.org/search?query=music">Music</a></p>
+<p><strong><em>Why is this list important?</em></strong><br />
+Many different people may find this information useful: From <strong>data sellers</strong> who want to know what kinds of data people would buy, <strong>trend watchers</strong> who are tracking what is popular, to <strong>anyone</strong> who is curious about what types of data are out there.</p>
+<p><strong><em>What can we learn from this list?</em></strong><br />
+One thing that we can take away from this list is that there is a good indication of <strong>data becoming more mainstream</strong>.  Data that is being searched for isn&#8217;t limited to academically-oriented information that traditional data users (such as researchers) would use.  Categories like sports and music are of interest to a wider audience.</p>
+<p>Furthermore, <strong>there is a demand</strong> for these types of data, but <strong>not always a supply</strong>.  As the usefulness of data is becoming more realized, the infrastructure to facilitate the data process is still forming.  Infochimps is one of the platforms that aims to bridge the gap, through functions like the <a href="http://infochimps.org/dataset_requests">dataset request page</a>, and provides a venue for data exchange.  If you&#8217;ve got data in these categories, know that there are people out there who want your data.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://blog.infochimps.org/2010/04/12/top-7-data-categories/#comments" thr:count="1"/>
+    <link rel="replies" type="application/atom+xml" href="http://blog.infochimps.org/2010/04/12/top-7-data-categories/feed/atom/" thr:count="1"/>
+    <thr:total>1</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>mrflip</name>
+      <uri>http://infochimps.org</uri>
+    </author>
+    <title type="html"><![CDATA[SxSW 2010 &#8212; Lecture Notes]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.infochimps.org/2010/03/14/sxsw-2010-lecture-notes/"/>
+    <id>http://blog.infochimps.org/?p=571</id>
+    <updated>2010-03-14T18:04:37Z</updated>
+    <published>2010-03-14T18:04:37Z</published>
+    <category scheme="http://blog.infochimps.org" term="main"/>
+    <category scheme="http://blog.infochimps.org" term="db"/>
+    <category scheme="http://blog.infochimps.org" term="hadoop"/>
+    <category scheme="http://blog.infochimps.org" term="nosql"/>
+    <category scheme="http://blog.infochimps.org" term="scaling"/>
+    <category scheme="http://blog.infochimps.org" term="sxsw"/>
+    <category scheme="http://blog.infochimps.org" term="sxsw10"/>
+    <summary type="html"><![CDATA[Here are notes from the Infochimps on interesting talks at SxSW. We'll manually update this post as we add notes.]]></summary>
+    <content type="html" xml:base="http://blog.infochimps.org/2010/03/14/sxsw-2010-lecture-notes/"><![CDATA[<p>Here are notes from Infochimps on interesting talks at SxSW!</p>
+<ul>
+<li><a href="#notdoneyet-notes">2009-03-14 11:00 Why You Aren&#8217;t Done Yet &#8211; David  Heinemeier Hansson</a></li>
+<li><a href="#scaling-notes">2009-03-14 9:30 Scaling Beyond LAMP &#8212; Twitter, Imgur, Facebook, Reddit</a></li>
+</ul>
+<p>See also:</p>
+<ul>
+<li><a href="http://sarahdavies.cc/2010/03/14/beyond-lamp-scaling-websites-past-mysql/">Sarah Davies&#8217; notes on Scaling Beyond LAMP</a></li>
+<li><a href="http://www.williamhertling.com/2010/03/raw-notes-from-beyond-lamp-scaling.html">William Hertling&#8217;s notes on Scaling Beyond LAMP</a></li>
+</ul>
+<p><span id="more-571"></span></p>
+<h2 id="notdoneyet-notes">2009-03-14 11:00 Why You Aren&#8217;t Done Yet &#8211; David  Heinemeier Hansson</h2>
+<ul>
+<li>Meetings are TOXIC<br />
+* Turn work day into work moments</li>
+</ul>
+<p>#1 enemy of productivity is interruption</p>
+<h3>ASAP is POISON</h3>
+<ul>
+<li>everything is ASAP</li>
+<li>they&#8217;re trying to get <strong>their</strong> thing done by Friday</li>
+</ul>
+<h3>not the only 4-letter word</h3>
+<ul>
+<li>NEED<br />
+* Otherwise, what? is it really?</li>
+<li>CAN&#8217;T</li>
+<li>EASY</li>
+<li>FAST</li>
+</ul>
+<h3>How to combat it</h3>
+<ul>
+<li>/SAY NO/: 40 hours is more than anyone needs in a creative industry</li>
+<li>/GOOD ENOUGH IS FINE/. Maybe I&#8217;ll come back to finish it sometime</li>
+<li>/YOU CAN ALWAYS DO LESS/ Most things can be passed.<br />
+* At 37signals started imposing deadlines. every 2 weeks has to get done<br />
+* list of ship has to get done by some deadline: NO. Broken<br />
+* if the list is changeable &#8212; if not everything you need to get done <strong>has</strong> to get done, you can</li>
+<li>whatever we can fit in the box, gets done.</li>
+<li>everything else gets dropped</li>
+<li>you will always meet your deadline</li>
+<li>&#8230; even still, we often can&#8217;t follow through</li>
+<li>&#8211; as soon as &#8216;need&#8217; &#8216;fast&#8217; comes up, off plan</li>
+</ul>
+<h3>Restating the problem</h3>
+<ul>
+<li>only one way to get /exactly/ what you want</li>
+<li>thousands of ways to get approx. what you want</li>
+<li>restating is most effective way to clear out list</li>
+</ul>
+<h3>Give up</h3>
+<ul>
+<li>walked away from a fair # of projects at 37 signals</li>
+</ul>
+<h2>Questions</h2>
+<ul>
+<li>All meetings are optional</li>
+<li>work from home</li>
+<li>How deal with slackers<br />
+* ask people to live up to expectations<br />
+* everyone gets a credit card. Policy is &#8216;Spend it wisely&#8217;<br />
+* not set in concrete &#8212; if people abused, then we stop. Try it for 2 weeks<br />
+* fire people quickly &#8216;it&#8217;s not Italy, everything in US is at-will&#8217;</li>
+</ul>
+<ul>
+<li>What are criteria for saying Yes<br />
+* A: &#8220;I care about it&#8221;. Don&#8217;t care if there&#8217;s a big opportunity, etc. Only if we need it ourselves.<br />
+* Personal annoyance is my key criteria</li>
+</ul>
+<ul>
+<li>Subscription models: how to figure out pricing, discounts<br />
+* no idea.<br />
+* there&#8217;s a lot of science, we&#8217;ve read none of it.<br />
+* &#8220;Would I pay for this?&#8221;<br />
+* Don&#8217;t make sure you&#8217;re profitable. Make sure you&#8217;re PREPOSTEROUSLY possible<br />
+* rule of thumb: from 1 tier to next, pay 2x as much but get 3x as much access<br />
+* But: don&#8217;t want to be changing prices every day. Shift from $100 to $150: no biggie. Shift from $5 to $7: HELL NO YOU SUCK BLAH BLAH BLAH</li>
+</ul>
+<hr />
+<hr />
+<h2 id="scaling-notes">2009-03-14 9:30 Scaling Beyond LAMP &#8212; Twitter, Imgur, Facebook, Reddit</h2>
+<h3>Christopher Slowe (Reddit)</h3>
+<ul>
+<li>Any query that doesn&#8217;t hit an index won&#8217;t finish</li>
+<li>Moving to cassandra</li>
+</ul>
+<h3>Kevin Weil (Twitter)</h3>
+<ul>
+<li>started with a monolithic rails application, moved to an SOA</li>
+<li>can upgrade different parts at different times</li>
+<li>let you work in parallel</li>
+<li>Moving all the tweet storage over to cassandra</li>
+<li>50M/tweets/day 70k external apps</li>
+<li>Also memcached to the hilt</li>
+</ul>
+<h3>Serkan Piantino (Facebook)</h3>
+<ul>
+<li>10&#8217;s 1000s of servers</li>
+<li>using MySQL as a K-V store with GIGANTIC 30 or 40 TB of memcached</li>
+<li>Transcoded all the PHP to c++</li>
+<li>Serkan built news feed</li>
+<li>key difference to twitter: only friends with 0-5000 people.</li>
+<li>100,000x a second</li>
+<li>&#8220;megamodel&#8221;</li>
+</ul>
+<p>=&gt; *<strong>All of the big groups recontribute code back to memcached</strong>*</p>
+<h3>Alan Schaaf (Imgur)</h3>
+<ul>
+<li>5-character hash for photos never hits DB, it just uses mod-rewrite with a simple regex</li>
+<li>was using Apache at first &#8212; but too heavy</li>
+<li>moved to nginx, with apache for php</li>
+<li>HAproxy arbitrates: if image, nginx else Apache</li>
+</ul>
+<h3>Q: what is reddit using for indexes?</h3>
+<ul>
+<li>roll our own using memcacheDB</li>
+</ul>
+<h3>Why is Cassandra winning out over say Mongodb</h3>
+<ul>
+<li>Twitter is very <strong>write</strong> heavy</li>
+<li>we put that tweet in the mailbox of all the followers</li>
+<li>cassandra&#8217;s write-ahead log means no disk</li>
+</ul>
+<h3>Monitoring</h3>
+<ul>
+<li>Facebook: Ganglia Monitor, monitor, monitor</li>
+<li>monitor everything, graph it where you can see it, set alerts for out of band</li>
+<li>when you go thru a transitional phase you&#8217;ll see it and have to switch</li>
+</ul>
+<ul>
+<li>digg gets 2-3x more traffic if on front page than on say reddit</li>
+<li>crashed MySQL &#8212; moved to memcached</li>
+<li>go with memcached early on</li>
+</ul>
+<ul>
+<li>Twitter: does write-thru cache; assumes there will be 1x reads so doesn&#8217;t have to bounce in from DB</li>
+<li>Scala based distributed social graph to be open sourced by twitter in the next couple months</li>
+</ul>
+<ul>
+<li>Reddit: also ganglia</li>
+<li>&#8220;Once ganglia comes up will have to be rebooted a prime number of times&#8221; huge laugh</li>
+<li>Postgres config&#8217;ed for a 486 ;-) Read the docs</li>
+</ul>
+<h3>Analytics</h3>
+<ul>
+<li>Facebook: hadoop and hive</li>
+<li>&#8220;What&#8217;s the most status&#8217;ed word in Finland&#8221;</li>
+<li>Twitter: hadoop</li>
+</ul>
+<h3>Search</h3>
+<ul>
+<li>Unanimity: &#8220;Search is hard&#8221;</li>
+</ul>
+<ul>
+<li>Our worst problems have been DB</li>
+<li>Visible pain on @Keyser&#8217;s face talking about migration to</li>
+<li>proper way to do a migration shut off all indexes and rebuild</li>
+<li>unanimous: nginx over lightthp / apache</li>
+</ul>
+<ul>
+<li>an aha moment w/ news feed: 1st version was only a few things, pushed to the user&#8217;s dB</li>
+<li>built a query-based architecture that would do this on the fly &#8211; worked well until didn&#8217;t work at all</li>
+<li>sometimes have all leafs on one rack and all aggregators on another: NOT GOOD saturated the uplink</li>
+<li>built rack-awareness</li>
+<li>defined whole approach &#8212; don&#8217;t do new servers, do new racks.</li>
+</ul>
+<h3>Deployment</h3>
+<ul>
+<li>twitter: some capistrano, but now &#8216;murder&#8217; (bittorrent based deploy)</li>
+<li>deploy time from 12 mins to 37s</li>
+<li>use cap for the low level stuff murder for big deploys</li>
+</ul>
+<ul>
+<li>FB: once a week, &#8220;The Push&#8221; &#8212; all hands on, uses bittorrent; special port rules</li>
+</ul>
+<h3>DB strategies</h3>
+<ul>
+<li>Reddit: adding indexes becomes almost impossible</li>
+<li>build logic into app code</li>
+<li>rearchitect so that &#8216;all the SQL cruft just falls off&#8217;</li>
+<li>all that stuff you learned in DB class just throw that out the window</li>
+</ul>
+<ul>
+<li>FB: can&#8217;t change schemas &#8212; still have tables with what bracket you were in for NCAA 2007 etc</li>
+</ul>
+<ul>
+<li>Twitter is already eventually consistent</li>
+<li>a biz req we&#8217;re already fine with</li>
+</ul>
+<ul>
+<li>Reddit: two levels of cache &#8212; data cache and render cache</li>
+<li>we don&#8217;t write out a link, write out the fields that don&#8217;t change</li>
+<li>author name doesn&#8217;t change, #points does</li>
+</ul>
+<h3>why not oracle?</h3>
+<ul>
+<li>twitter: Because it&#8217;s not open-source.  If you can&#8217;t peek under the hood, don&#8217;t want it.</li>
+<li>Reddit: <strong>expensive</strong></li>
+</ul>
+]]></content>
+    <link rel="replies" type="text/html" href="http://blog.infochimps.org/2010/03/14/sxsw-2010-lecture-notes/#comments" thr:count="2"/>
+    <link rel="replies" type="application/atom+xml" href="http://blog.infochimps.org/2010/03/14/sxsw-2010-lecture-notes/feed/atom/" thr:count="2"/>
+    <thr:total>2</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Joseph Kelly</name>
+      <uri>http://infochimps.org</uri>
+    </author>
+    <title type="html"><![CDATA[Announcing bulk redistribution of MySpace data]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.infochimps.org/2010/03/12/announcing-bulk-redistribution-of-myspace-data/"/>
+    <id>http://blog.infochimps.org/?p=563</id>
+    <updated>2010-03-25T03:18:49Z</updated>
+    <published>2010-03-12T15:14:43Z</published>
+    <category scheme="http://blog.infochimps.org" term="main"/>
+    <summary type="html"><![CDATA[Today, we’re excited to announce the availability of MySpace data for bulk download on Infochimps.  This is a major step forward for Myspace in our eyes – a move that signifies their seriousness about data and the developers and academics that work with that data.
+This data is not sold by MySpace, but given out [...]]]></summary>
+    <content type="html" xml:base="http://blog.infochimps.org/2010/03/12/announcing-bulk-redistribution-of-myspace-data/"><![CDATA[<p>Today, we’re excited to announce <a href="http://infochimps.org/collections/myspace-real-time-stream">the availability of MySpace data for bulk download</a> on Infochimps.  This is a major step forward for Myspace in our eyes – a move that signifies their seriousness about data and the developers and academics that work with that data.</p>
+<p>This data is not sold by MySpace, but given out for free from their API and then packaged by Infochimps for redistribution.  By giving developers free access to publically available real-time data (such as status updates, music, photos, videos) MySpace reinforces its commitment to powering the real-time social Web and the development of open standards.</p>
+<li>Every day, MySpace processes over 32 million activities and updates</li>
+<li>MySpace opened up its real-time data with free-to-use APIs letting developers create robust products</li>
+<li>MySpace offers more scale and richer content like music, photo, videos, apps than anyone else</li>
+<li>Real-time data input and the ability to then share that in real-time will drive the socialization of content on the web</li>
+<p>Data available for bulk download will help usher the next generation of data-driven research and application development.  Now, using a dataset like <a href="http://infochimps.org/datasets/myspace-user-activity-stream-word-count-by-hour-from-december-20">word count by hour</a>, developers and content providers can better understand how things are talked about and when.</p>
+<p>The benefits of having data available for bulk download instead of just an API are numerous.  Developers can start with a sample dataset and get their apps started faster.  Academics are much better served by a .csv than an API, and developers can take advantage of the datasets these experts create as a result of their research.  Opening one’s data to the big data community makes all this and much more possible.</p>
+<p>API’s aren’t enough.  New tools like Hadoop allow for the processing of huge datasets but necessitate having a local copy of the entire dataset.  The advanced analytics that come from computing on top of a huge dataset (and at 25GB/day the MySpace stream is massive) will power the next generation of applications.</p>
+<p>The developers looking for this data can come to Infochimps to find the data they need.  Let’s harbor a division of labor between the people who are experts in mining this data for insight, and the pros who can develop the applications on top of those discoveries.  For example, <a href="http://www.stat.ucla.edu/~ryan.rosario/">Ryan Rosario of UCLA</a> created a dataset of <a href="http://infochimps.org/datasets/myspace-us-user-moods">user’s moods by zip code</a>, a historical emotional context for researchers, psychologists, and possibly a developer looking to take advantage of this MySpace feature.</p>
+<p>We’ll premiere the “best of MySpace” datasets in the hopes of supporting a relationship between MySpace and data-driven research and development.   And any API owners out there should <a href="mailto:info@infochimps.org">get in touch</a> to talk about how we can make your data computable for the big data community.</p>
+<p>UPDATE: Here is a visualization of Users with geolocations from our dataset, <a href="http://infochimps.org/datasets/myspace-user-activity-stream-user-count-by-latlong">User locations by lat/long</a>:<br />
+<a href="http://s931.photobucket.com/albums/ad160/infochimps/?action=view&#038;current=figure.jpg" target="_blank"><img src="http://i931.photobucket.com/albums/ad160/infochimps/figure.jpg" width="500px" border="0" alt="jacob"/></a></p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://blog.infochimps.org/2010/03/12/announcing-bulk-redistribution-of-myspace-data/#comments" thr:count="3"/>
+    <link rel="replies" type="application/atom+xml" href="http://blog.infochimps.org/2010/03/12/announcing-bulk-redistribution-of-myspace-data/feed/atom/" thr:count="3"/>
+    <thr:total>3</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>maegan</name>
+    </author>
+    <title type="html"><![CDATA[Data Cluster Meetup]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.infochimps.org/2010/03/09/data-cluster-meetup/"/>
+    <id>http://blog.infochimps.org/?p=555</id>
+    <updated>2010-03-12T18:15:43Z</updated>
+    <published>2010-03-09T16:43:28Z</published>
+    <category scheme="http://blog.infochimps.org" term="main"/>
+    <summary type="html"><![CDATA[Austin, TX may be the live music capital of the world, but next weekend Rackspace, together with Infochimps, WolframAlpha, Factual, and knowmore, are putting together an event that will prove it’s not just about the music.
+Data geeks from all over the nation will come together to discuss the latest developments in the world of data [...]]]></summary>
+    <content type="html" xml:base="http://blog.infochimps.org/2010/03/09/data-cluster-meetup/"><![CDATA[<p>Austin, TX may be the live music capital of the world, but next weekend <a href="http://www.rackspace.com/index.php">Rackspace</a>, together with <a href="http://infochimps.org">Infochimps</a>, <a href="http://www.wolframalpha.com/">WolframAlpha</a>, <a href="http://www.factual.com/">Factual</a>, and <a href="http://www.knowmore.com">knowmore</a>, are putting together an event that will prove it’s not just about the music.</p>
+<p>Data geeks from all over the nation will come together to discuss the latest developments in the world of data during birds-of-a-feather sessions, talks and pure and simple mingling (not to mention munching on free food) at the <a href="http://datacluster.infochimps.org">Data Cluster Meetup</a> (Sunday, March 14, 6pm at <a href="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=4th+%26+Trinity,+Austin+TX+78701+(Austin+Convention+Center)&amp;daddr=700+West+6th+Street,+Austin,+TX+78701+(Infochimps+Meetup+at+Opal+Divine%27s)&amp;geocode=FZfPzQEdHpss-ilTRaTcp7VEhjEddh6-FyCCQg%3BFZDizQEdGXUs-ilTkQMtDLVEhjFTQ86cS4ttJw&amp;hl=en&amp;mra=ls&amp;dirflg=r&amp;date=2%2F21%2F10&amp;time=6:00pm&amp;ttype=dep&amp;noexp=0&amp;noal=0&amp;sort=&amp;sll=30.266962,-97.744868&amp;sspn=0.015734,0.014956&amp;ie=UTF8&amp;ll=30.267667,-97.74446&amp;spn=0.015734,0.014956&amp;z=16&amp;start=0/">Opal Divine’s Freehouse</a>).</p>
+<p>Not excited yet?  Read on…</p>
+<p><strong>Non-relational Database Smackdown</strong><br />
+Stu Hood of the Cassandra project will lead a discussion that will debate the merits of various non-relational databases.  Any CouchDB or MongoDB users out there?  RSVP and get in touch to be involved in the panel.</p>
+<p><strong>Birds-of-a-feather</strong><br />
+There will be five birds-of-a-feather sessions going on concurrently.  Each discussion topic chosen so that you’ll be able to find one that you are most interested in:</p>
+<p>1.	Operations (managing data) – Stu Hood of <a href="http://www.rackspace.com/index.php">Rackspace</a> and the <a href="http://incubator.apache.org/cassandra/">Apache Cassandra project</a> will lead a discussion on non relational databases<br />
+2.	Analytics (exploring data) – [No moderators locked in, interested?  Email info@infochimps.org]<br />
+3.	Web Applications (humanizing data) – [No moderators locked in, interested?  Email info@infochimps.org]<br />
+4.	Visualization (seeing data) – [No moderators locked in, interested?  Email info@infochimps.org]<br />
+5.	Data Commons (freeing data) – <a href="http://infochimps.org">Infochimps</a>’s own Flip Kromer, together with <a href="http://www.factual.com/">Factual</a>’s Gil Elbaz will lead a discussion on building a cross-domain data commons.</p>
+<p><strong>Mingling</strong><br />
+The best part of this event is the people.  You’ll have time to talk, eat, and network with some of the greatest minds in the data world and exchange cutting edge ideas.</p>
+<p>If you’re a really smart data geek, you can’t miss out on this chance to immerse yourself in the world you love.  RSVP now at <a href="http://datacluster.infochimps.org">http://datacluster.infochimps.org</a> Afterwards, check out our Facebook event page for more information on who’s coming and the latest updates.</p>
+<p>None of this would be possible without our sponsors, <a href="http://www.rackspace.com/index.php">Rackspace</a>, <a href="http://infochimps.org">Infochimps</a>, <a href="http://www.wolframalpha.com/">WolframAlpha</a>, <a href="http://www.factual.com/">Factual</a> and knowmore.  To all of them, thank you!</p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://blog.infochimps.org/2010/03/09/data-cluster-meetup/#comments" thr:count="0"/>
+    <link rel="replies" type="application/atom+xml" href="http://blog.infochimps.org/2010/03/09/data-cluster-meetup/feed/atom/" thr:count="0"/>
+    <thr:total>0</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Joseph Kelly</name>
+      <uri>http://infochimps.org</uri>
+    </author>
+    <title type="html"><![CDATA[How to create datasets that the rest of the world needs]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.infochimps.org/2010/03/04/how-to-create-datasets-that-the-rest-of-the-world-needs/"/>
+    <id>http://blog.infochimps.org/?p=546</id>
+    <updated>2010-03-05T00:30:30Z</updated>
+    <published>2010-03-04T18:39:31Z</published>
+    <category scheme="http://blog.infochimps.org" term="main"/>
+    <summary type="html"><![CDATA[We recently created a dataset for the web site that is a map between IP addresses to zip codes and census demographic information.  The work that was involved in this is representative of the type of community we want to have involved with Infochimps in the future.  The type of people that will [...]]]></summary>
+    <content type="html" xml:base="http://blog.infochimps.org/2010/03/04/how-to-create-datasets-that-the-rest-of-the-world-needs/"><![CDATA[<p>We recently created a dataset for the web site that is a map between IP addresses to zip codes and census demographic information.  The work that was involved in this is representative of the type of community we want to have involved with Infochimps in the future.  The type of people that will find this dataset useful &#8211; web site owners, internet advertisers &#8211; are not always going to be the same people that can create such a dataset.  This division of labor can only happen when experts at data gathering can share their data in a place where people that want to use the data can find it.</p>
+<p>Our social media expert Maegan recently interviewed Carl, a member of our data team, to talk about this dataset creation process.  You can find the IP-Census data he&#8217;s talking about here: <a href="http://infochimps.org/collections/ip-address-to-us-census-data">http://infochimps.org/collections/ip-address-to-us-census-data</a>.</p>
+<p>M: Hi Carl, would you start by introducing yourself and telling us what you do for Infochimps?</p>
+<p>C: I’m a member of the data team here at Infochimps.  Basically, the team in charge of gathering data that’s available on the web, cleaning it up and making it more useful for other people out there that are looking for this sort of data.</p>
+<p>M: I can imagine how appealing that data is to a lot of people.  Speaking of useful data, I heard that you recently came up with a collection of datasets that link IP addresses to Census information.  Can you tell me more about it?</p>
+<p>C: Well, we heard from a few people that that sort of thing might be interesting.  There are a lot of people out there want to know more about the people that come to their website.  Using this dataset, they can get demographic details by using the IP address of their visitors.  That way they can improve their understanding of their audience and target the content on their website better.  The dataset that we have links IP addresses to zip codes, and then zip codes to all sorts of demographic data from the Census.</p>
+<p>M: I saw that you have so many different types of information from the Census.  Where did you go to find the data to mash together?</p>
+<p>C: For the Census data, that’s a fairly well-known source.  The US government has a Census website, <a href="http://factfinder.census.gov">Factfinder.census.gov</a>, where you can go to download all sorts of information.  As far as the IP to geolocation data, there are lot of datasets available.  We were looking for one that had good coverage of IP addresses, was available for free, and had a license that allowed us to take that data, do what we wanted with it and make it available on our site.</p>
+<p>M: Is this a new kind of dataset?  Or is it available elsewhere?</p>
+<p>C: The IP to geolocation dataset is available from where we got it &#8211; at <a href="http://www.maxmind.com">MaxMind</a>.  Linking that to the Census data is something that I don’t think we’ve seen elsewhere.</p>
+<p>M: How did the process work once you had the data?</p>
+<p>C: The Census data is divided into a lot of different geographic segments – national, state, city, county and all those sorts of things, but the IP geolocation data only uses zip codes.  We wanted just the data from the Census that’s associated with the zip codes, so I had to comb through the Census data and pull out just the lines of the data that are associated with zip codes and then use that to match up to the IP addresses in the geolocation data.</p>
+<p>M: Is it just how they’re organized?</p>
+<p>C: Yeah, it’s more of how it’s organized.  The Census data is organized into a few different files.  You have one file that lists all the different breakdowns of how the data is divided up – like how I was saying, by state, city, zip code or the country.  Each of those breakdowns was associated with this logical record number.  Then, the actual Census data files have the logical record number at the beginning and then all the numbers associated with the different fields in the rest of the file.  I had to pick out just all the logical record numbers that were associated with the zip codes in the first files and then pull all those out of the Census data to match it to the zip codes from the IP addresses.</p>
+<p>M: I would imagine that Census data would involve big files – did this make them difficult to manage?</p>
+<p>C: Yeah, the Census data files are really large and so it took a lot of space to load everything into memory.  Then, I made a list of what data we needed from the Census data files and searched through them line by line to match zip codes to demographic information.</p>
+<p>M: That sounds like a lot of work.  Did you have to do anything else to process the data?</p>
+<p>C: The other thing that I did was figure out the column headings to make it more useful.  The way it was presented by the US Census bureau is that each column of data has a column heading that is just a code that you look up somewhere else to figure out what it actually meant.  I went through and did a lot of manual editing to make the column headings more readable.  Now if you just look at it, you have a better idea of what’s actually going on and it’s not just meaningless code.</p>
+<p>M: How did you find data with licenses that actually let you mash them?</p>
+<p>C: We were looking for specific datasets that had the licenses with certain properties that let you freely download, mash and mix up the data with other datasets, and sell it on your own site or do anything commercial with it.  Of course, most of these licenses have attribution requirements, so we made sure to list all our sources in the dataset.  The final dataset that we have available clearly says that this data originally came from the US Census Bureau and this MaxMind website.</p>
+<p>M: In the end, what licenses did you put on the dataset that you made?</p>
+<p>C: The license that is on there now is a very open license that lets users use the data for whatever they need.  It is the Open Database License.</p>
+<p>M: Are there any other difficulties you faced?</p>
+<p>C: One of the issues that we wanted to make sure was cleared up was that the IP address data that we got was reliable and would cover a lot of IP addresses.  It needed to have broad coverage of general IP addresses.  We did a quick test and used the logs from our own website, took IP addresses from 6 months worth of page visits, and ran all those IP addresses through the IP address database.  It turned out that it matched over 90% of the IP addresses that we had, and so that was a pretty good indication that the IP address dataset we had was fairly complete and had very good coverage compared to others which we heard would have only 50% coverage.</p>
+<p>M: Is the availability of the IP addresses a privacy concern?</p>
+<p>C: I don’t think it’s a privacy concern because it’s not matching it up to a specific address, but it’s matching it up to a zip code.  Since zip codes have a very large number of people, it’s hard to determine if that IP address is coming from one specific person or even one specific household.</p>
+<p>M: Ok, thank you very much, Carl.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://blog.infochimps.org/2010/03/04/how-to-create-datasets-that-the-rest-of-the-world-needs/#comments" thr:count="1"/>
+    <link rel="replies" type="application/atom+xml" href="http://blog.infochimps.org/2010/03/04/how-to-create-datasets-that-the-rest-of-the-world-needs/feed/atom/" thr:count="1"/>
+    <thr:total>1</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Joseph Kelly</name>
+      <uri>http://infochimps.org</uri>
+    </author>
+    <title type="html"><![CDATA[Partner with us]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.infochimps.org/2010/01/26/partner-with-us/"/>
+    <id>http://blog.infochimps.org/?p=537</id>
+    <updated>2010-02-18T14:44:54Z</updated>
+    <published>2010-01-26T19:42:55Z</published>
+    <category scheme="http://blog.infochimps.org" term="main"/>
+    <summary type="html"><![CDATA[2009 was a great year for us.  We made lots of progress on the website (with a long way to go), but we were especially excited for all the great contacts we made with other developers and companies interested in data.  We strongly encourage all of our followers (you!) to get in touch with us [...]]]></summary>
+    <content type="html" xml:base="http://blog.infochimps.org/2010/01/26/partner-with-us/"><![CDATA[<p>2009 was a great year for us.  We made lots of progress on the website (with a long way to go), but we were especially excited for all the great contacts we made with other developers and companies interested in data.  We strongly encourage all of our followers (you!) to get in touch with us to talk about your expertise and data needs.</p>
+<p>We will create a page on the site soon which lists our network of data mechanics, data tools, and solution providers.  One of the issues with our site is that many of the datasets can&#8217;t be used by everybody &#8211; some are too large for Excel and average tools, and others require specialized skills in order to use.  Our <a href="http://infochimps.org/datasets/texas-assessment-of-knowedge-and-skills-taks-exams-2003-2007">TAKS</a> and <a href="http://infochimps.org/datasets/twitter-census-::-conversation-metrics-one-year-of-urls-hashtags">Twitter</a> datasets are just some examples of datasets that can be really powerful for a lot of businesses only after an expert has had the chance to analyze them.</p>
+<p>Here are a few of the great companies who have worked with us so far:</p>
+<p><a href="http://www.qvapps.com/">QVApps</a>: QVApps is a marketplace for QlikView applications.  <a href="http://www.qlikview.com/">QlikView</a> is a business intelligence software that supports third party applications.  Having trouble understanding your AWS reports?  QVApps has a <a href="http://www.qvapps.com/en/qlikview-applications/web-services/amazon-web-services-analyzer.html">free AWS report analyzer</a> that we&#8217;ve found useful.</p>
+<p>UPDATE: Check out QVApps&#8217; <a href=http://www.slideshare.net/qvapps/qvapps-twitter-hashtags-2009-3205119">slideshow on some of the data from our Twitter Census</a>! See below for the imbedded slideshow.</p>
+<p><a href="http://www.data-applied.com/">Data Applied</a>: Data Applied&#8217;s application is truly magic.  Their software is putting the power of machine learning into the world&#8217;s hands.  Techniques and algorithms that people wrote Phd. thesis&#8217;s on 20 years ago are here at the click of a mouse.  <a href="https://data-applied.com/Web/TryNow/Overview.aspx">Try them out with a free account.</a></p>
+<p><a href="http://dataminingtools.net/">DataMiningTools.net</a>: A startup based in India, DataMiningTools.net is doing a wonderful job working to educate the masses on data mining tools and resources.  Find <a href="http://dataminingtools.net/browse.php">tutorials</a> on clustering analysis, R, Matlab &#8211; you name it.  Check out videos on <a href="http://dataminingtools.net/videos.php?id=7">Data Applied</a> and your very own <a href="http://dataminingtools.net/videos.php?id=9">Infochimps</a>!</p>
+<p>If you are a Data Mechanic, another data company, or just interested in being listed as a solutions provider, please get in touch with me at joe@infochimps.org.  Likewise, if you&#8217;re a Ruby/Rails developer, we&#8217;re hiring!</p>
+<div id="__ss_3205119" style="width: 425px; text-align: left;"><a style="font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0 3px 0;text-decoration:underline;" title="QVApps Twitter Hashtags 2009" href="http://www.slideshare.net/qvapps/qvapps-twitter-hashtags-2009-3205119">QVApps Twitter Hashtags 2009</a><object style="margin:0px" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="355" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="src" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=qvappstwitterhashtags2009-100217024029-phpapp02&amp;stripped_title=qvapps-twitter-hashtags-2009-3205119" /><param name="allowfullscreen" value="true" /><embed style="margin:0px" type="application/x-shockwave-flash" width="425" height="355" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=qvappstwitterhashtags2009-100217024029-phpapp02&amp;stripped_title=qvapps-twitter-hashtags-2009-3205119" allowscriptaccess="always" allowfullscreen="true"></embed></object></div>
+]]></content>
+    <link rel="replies" type="text/html" href="http://blog.infochimps.org/2010/01/26/partner-with-us/#comments" thr:count="3"/>
+    <link rel="replies" type="application/atom+xml" href="http://blog.infochimps.org/2010/01/26/partner-with-us/feed/atom/" thr:count="3"/>
+    <thr:total>3</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Joseph Kelly</name>
+      <uri>http://infochimps.org</uri>
+    </author>
+    <title type="html"><![CDATA[Data.gov import]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.infochimps.org/2010/01/13/data-gov-import/"/>
+    <id>http://blog.infochimps.org/?p=528</id>
+    <updated>2010-01-13T18:59:35Z</updated>
+    <published>2010-01-13T18:59:35Z</published>
+    <category scheme="http://blog.infochimps.org" term="main"/>
+    <summary type="html"><![CDATA[Infochimps is pleased to announce a recent import of all of the data from Data.gov!  Data.gov was one of the more exciting things to happen last year for the world community and it has had a big impact in the US and internationally by setting precedent for government data sharing.  We hope that these datasets&#8217; [...]]]></summary>
+    <content type="html" xml:base="http://blog.infochimps.org/2010/01/13/data-gov-import/"><![CDATA[<p>Infochimps is pleased to announce a recent import of all of the data from <a href="http://www.data.gov/">Data.gov</a>!  Data.gov was one of the more exciting things to happen last year for the world community and it has had a big impact in the US and <a href="http://data.london.gov.uk/">internationally</a> by setting precedent for government data sharing.  We hope that these <a href="http://infochimps.org/collections/data-gov" target="_blank">datasets&#8217; inclusion</a> in our collection increases the visibility for all these datasets and becomes useful for the world at large.</p>
+<p>The fact that users can edit this data makes them much more usable and interesting.  Unlike Data.gov, users on Infochimps can upload datasets and even upload different versions of datasets to the site.  So when a dataset comes from the government in some messy, incomprehensible format, you can do what Infochimps user Ganglion did and upload a better version.  This type of Wikipedia style curation of datasets is where Infochimps got its name.  Because data drudge work (column titles, formatting issues, etc.) is fit for a chimp, this type of work should only be done once.  And may the result live on Infochimps!</p>
+<p><a href="http://infochimps.org/collections/data-gov" target="_blank">Take a look</a> at the Data.gov collection to get started.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://blog.infochimps.org/2010/01/13/data-gov-import/#comments" thr:count="4"/>
+    <link rel="replies" type="application/atom+xml" href="http://blog.infochimps.org/2010/01/13/data-gov-import/feed/atom/" thr:count="4"/>
+    <thr:total>4</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>nickster</name>
+      <uri>http://infochimps.org</uri>
+    </author>
+    <title type="html"><![CDATA[Visualizing Chinese media]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.infochimps.org/2009/12/29/visualizing-chinese-media/"/>
+    <id>http://blog.infochimps.org/?p=523</id>
+    <updated>2009-12-29T16:24:35Z</updated>
+    <published>2009-12-29T16:24:35Z</published>
+    <category scheme="http://blog.infochimps.org" term="news"/>
+    <category scheme="http://blog.infochimps.org" term="visualization"/>
+    <summary type="html"><![CDATA[For data geeks interested in the developing world, few places are more compelling to gather numbers about than China. This owes much to its legendary economic growth, the staggering size of its population and global footprint, and hybrid political system. But there is another, often overlooked characteristic of the country at work here: its relentless [...]]]></summary>
+    <content type="html" xml:base="http://blog.infochimps.org/2009/12/29/visualizing-chinese-media/"><![CDATA[<p>For data geeks interested in the developing world, few places are more compelling to gather numbers about than China. This owes much to its legendary economic growth, the staggering size of its population and global footprint, and hybrid political system. But there is another, often overlooked characteristic of the country at work here: its relentless pursuit of what it calls &#8220;scientific development&#8221;, which emphasizes the use of scientific research as a means to achieve social harmony and balanced economic growth, has led to an explosion in data-fueled, science-based policy. As a result, China is now one of the largest and most sophisticated data-gathering entities in the world.</p>
+<p>There&#8217;s a good reason for this. Unlike China&#8217;s early post-revolution cadres, the ranks of China&#8217;s top leadership today are <a id="sezc" title="brimming with scientists and engineers" href="http://www.time.com/time/world/article/0,8599,165453,00.html">brimming with scientists and engineers</a>, including President Hu Jintao, who has a degree in hydraulic engineering. When government &#8220;works&#8221;, these technocrats steer Chinese policy down a painfully cautious course based on five, ten, and even twenty year plans crafted to satisfy <a id="ipz5" title="discrete social, economic, and technological benchmarks" href="http://en.ndrc.gov.cn/hot/t20060529_71334.htm">discrete social, economic, and technological benchmarks</a>. At any given moment, the country is teeming with pilot projects spanning areas like subsidized housing, health care, industrial development, and family planning, which will ultimately be scrutinized by the country&#8217;s <a id="elr0" title="National Reform and Development Commission" href="http://en.ndrc.gov.cn/">National Reform and Development Commission</a> for use at the national level.</p>
+<p>This science-based approach is exactly why China has recently come forward with <a id="g5_0" title="ambitious carbon emissions targets" href="http://www.carnegieendowment.org/publications/index.cfm?fa=view&amp;id=24275">ambitious carbon emissions targets</a>&#8211;global warming has a direct, significant impact on its population, and therefore social stability. None of these projects could be completed without good data, and China knows it.</p>
+<p>While we&#8217;ve been emphasizing social media data with recent posts, we hope to shine more light on the state of Chinese data and bring more of it into the repository in the near future. To this end, and as a special holiday treat, we&#8217;re releasing a visualization of major Chinese websites we scraped this past October during the country&#8217;s <a id="fd_9" title="meticulously executed" href="http://www.guardian.co.uk/world/video/2009/oct/01/china-national-day-timelapse">meticulously executed</a> 60th anniversary of its founding. We find the bright colors and flashing lights to be particularly seasonally appropriate.</p>
+<p><a href="http://dev.infochimps.org/static/gallery/media/nationalday/index.html">Click here for the visualization</a></p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://blog.infochimps.org/2009/12/29/visualizing-chinese-media/#comments" thr:count="2"/>
+    <link rel="replies" type="application/atom+xml" href="http://blog.infochimps.org/2009/12/29/visualizing-chinese-media/feed/atom/" thr:count="2"/>
+    <thr:total>2</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>maegan</name>
+    </author>
+    <title type="html"><![CDATA[Open Data Applications]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.infochimps.org/2009/12/10/open-data-applications/"/>
+    <id>http://blog.infochimps.org/?p=485</id>
+    <updated>2010-01-08T23:25:53Z</updated>
+    <published>2009-12-10T17:35:03Z</published>
+    <category scheme="http://blog.infochimps.org" term="main"/>
+    <summary type="html"><![CDATA[With President Obama&#8217;s Open Government Directive and news about Data.gov&#8217;s overhaul, more and more people have been talking about the benefits of open data.  Yes, this includes greater transparency and a more accountable government, but it also gives birth to useful apps that use these newly available datasets.
+A lot of these apps have been [...]]]></summary>
+    <content type="html" xml:base="http://blog.infochimps.org/2009/12/10/open-data-applications/"><![CDATA[<p>With President Obama&#8217;s Open Government Directive and news about Data.gov&#8217;s overhaul, more and more people have been talking about the benefits of open data.  Yes, this includes greater transparency and a more accountable government, but it also gives birth to useful apps that use these newly available datasets.</p>
+<p>A lot of these apps have been made for competitions like Sunlight Lab&#8217;s Apps for America and various cities&#8217; own initiatives like NYC BigApps.  Understandably, they provide appealing incentives for programmers.  (If not the recognition, the cash prizes are appealing).</p>
+<p>All that said, these competitions have spawned very useful apps.  Here are 5 that we feel are great examples of the good that can be done with government data:</p>
+<p><a href="http://www.thisweknow.org/"><img src="http://blog.infochimps.org/wp-content/uploads/2009/12/This-We-Know_-Explore-U.S.-Government-Data-About-Your-Community-11-150x150.jpg" alt="This We Know_ Explore U.S. Government Data About Your Community-1" /></a><br />
+1. <a href="http://www.thisweknow.org/">This We Know</a> (www.thisweknow.org)<br />
+This We Know is a excellent tool that provides a wealth of information sourced mainly from Data.gov.  You name a place and it tells you what we know about that location &#8211; things like demographics or the number of factories in the area.  It&#8217;s also presented in a very clear fashion, condensing data into an easily understandable and still useful format.</p>
+<p><a href="http://www.outsideindc.com/stumblesafely"><img src="http://blog.infochimps.org/wp-content/uploads/2009/12/stumble-150x89.png" alt="stumble"  /></a><br />
+2. <a href="http://www.outsideindc.com/stumblesafely">StumbleSafely</a> (www.outsideindc.com/stumblesafely)<br />
+This app from DC literally helps you stumble safely home.  It uses data on crime and geography to map out safe routes from the more (in)famous bars in the city, no matter what time you like to party &#8211; day, evening or night.</p>
+<p><a href="http://www.nycway.com/"><img src="http://blog.infochimps.org/wp-content/uploads/2009/12/photo_185-150x150.jpg" alt="photo_185"  /></a><br />
+3. <a href="http://www.nycway.com/">NYC Way</a> (www.nycway.com)<br />
+An iPhone app, NYC Way provides you with a plethora of useful information for locals and tourists alike right at your fingertips.  Location aware, it draws from a bunch of various datasets from the NYC.gov Data Mine and gives you facts about nearby zoos, wi-fi spots, emergency rooms, and a lot of other useful places to help you find your way in the big city.</p>
+<p><a href="http://www.everyblock.com/"><img src="http://blog.infochimps.org/wp-content/uploads/2009/12/everyblock_0-150x105.jpg" alt="everyblock_0"  /></a><br />
+4. <a href="http://www.everyblock.com/">EveryBlock</a> (www.everyblock.com)<br />
+This one&#8217;s not yet available in Austin, but it does have versions for 15 cities across the nation.  EveryBlock provides you with a newsfeed of things going on around a user specified address or location in these cities.  It also allows you to browse by topic and track trends overtime.</p>
+<p><a href="http://www.ikidny.com/"><img src="http://blog.infochimps.org/wp-content/uploads/2009/12/ikid-150x150.jpg" alt="ikid"  /></a><br />
+5. <a href="http://www.ikidny.com/">iKidNY</a> (www.ikidny.com)<br />
+Not all apps are useful just for adults &#8211; this iPhone app, iKidNY, helps you find kid-friendly places all over the NYC.  It provides you with locations and information about activities, kid-friendly restaurants, playgrounds, and even changing tables and subway elevators.</p>
+<p>If you want to look at more apps, these competitions&#8217; submission galleries are worth a look:<br />
+<a href="http://www.sunlightlabs.com/contests/appsforamerica2/apps/">Apps for America 2</a><br />
+<a href="http://www.sunlightlabs.com/contests/appsforamerica2/apps/"></a><a href="http://www.appsfordemocracy.org/application-directory/">Apps for Democracy</a><br />
+<a href="http://www.appsfordemocracy.org/application-directory/"></a><a href="http://www.nycbigapps.com/application-gallery">NYC BigApps</a><br />
+<a href="http://www.nycbigapps.com/application-gallery"></a><a href="http://datasf.org/showcase/">DataSF</a></p>
+<p>Did we miss out on your favorite app?  Let us know!  We&#8217;d love to check it out.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://blog.infochimps.org/2009/12/10/open-data-applications/#comments" thr:count="1"/>
+    <link rel="replies" type="application/atom+xml" href="http://blog.infochimps.org/2009/12/10/open-data-applications/feed/atom/" thr:count="1"/>
+    <thr:total>1</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Joseph Kelly</name>
+      <uri>http://infochimps.org</uri>
+    </author>
+    <title type="html"><![CDATA[Twitter data, open questions to Developers, Academics, and Data Geeks]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.infochimps.org/2009/11/20/twitter-data-open-questions-to-developers-academics-and-data-geeks/"/>
+    <id>http://blog.infochimps.org/?p=463</id>
+    <updated>2009-11-20T21:23:44Z</updated>
+    <published>2009-11-20T21:23:44Z</published>
+    <category scheme="http://blog.infochimps.org" term="main"/>
+    <summary type="html"><![CDATA[We are excited to announce the re-release of the Twitter datasets, and a discount to the Twitter API Map dataset.  Again, the datasets are:
+
+Twitter API Map discounted to $100 for this weekend only
+
+and
+Conversation Metrics, with Token Count of:
+
+Smiley&#8217;s for free
+Hashtags, URL&#8217;s, and Smiley&#8217;s by month for $1,000
+Hashtags, URL&#8217;s, and Smiley&#8217;s by hour for $8,000
+
+This time [...]]]></summary>
+    <content type="html" xml:base="http://blog.infochimps.org/2009/11/20/twitter-data-open-questions-to-developers-academics-and-data-geeks/"><![CDATA[<p>We are excited to announce the re-release of the Twitter datasets, and a discount to the Twitter API Map dataset.  Again, the datasets are:</p>
+<ul>
+<li><a href="http://infochimps.org/datasets/twitter-census-::-developer-tools-mapping-from-twitter-user-sear">Twitter API Map</a> discounted to $100 for this weekend only</li>
+</ul>
+<p>and</p>
+<p><a href="http://infochimps.org/datasets/twitter-census-::-conversation-metrics-one-year-of-urls-hashtags">Conversation Metrics</a>, with Token Count of:</p>
+<ul>
+<li><a href="http://infochimps.org/datasets/twitter-census-::-conversation-metrics-one-year-of-urls-hashtags/payloads/15374">Smiley&#8217;s</a> for free</li>
+<li><a href="http://infochimps.org/datasets/twitter-census-::-conversation-metrics-one-year-of-urls-hashtags/payloads/15371">Hashtags, URL&#8217;s, and Smiley&#8217;s</a> by month for $1,000</li>
+<li><a href="http://infochimps.org/datasets/twitter-census-::-conversation-metrics-one-year-of-urls-hashtags/payloads/15371">Hashtags, URL&#8217;s, and Smiley&#8217;s</a> by hour for $8,000</li>
+</ul>
+<p>This time the data is being released with Twitter&#8217;s approval.  We are talking with them about how we can increase access to more and more bulk data, and need your help in showing them how useful this data really is.</p>
+<p>We want to make clear to people with privacy concerns that we absolutely hear and respect your points, and so does Twitter.  These datasets contain NO personally identifiable information, they do NOT contain whole tweets, and they meet the guidelines laid out in <a href="http://www.eff.org/deeplinks/2009/09/what-information-personally-identifiable">this EFF document</a> (on personally id&#8217;able info).</p>
+<p>We encourage everybody to take advantage of this weekend&#8217;s discount and go build great things with this data.  Let&#8217;s show Twitter and the world what is possible when one has access to bulk data:</p>
+<ul>
+<li>Data geeks and Visualization studs: what would you do if you could run jobs across our massive crawl (or the full Twitter graph)?</li>
+<li>App devs: what data do you want those nerds to extract?  How would it improve the experience of Twitter or enable new things?</li>
+<li>Businesses: how can this data improve your services?  How can this data make you money?</li>
+<li>Academic researchers: what amazing things will you uncover by exploring the social network&#8217;s deep structure?</li>
+</ul>
+<p>Reach out to us in the comments or send us ideas at info@infochimps.org</p>
+]]></content>
+    <link rel="replies" type="text/html" href="http://blog.infochimps.org/2009/11/20/twitter-data-open-questions-to-developers-academics-and-data-geeks/#comments" thr:count="0"/>
+    <link rel="replies" type="application/atom+xml" href="http://blog.infochimps.org/2009/11/20/twitter-data-open-questions-to-developers-academics-and-data-geeks/feed/atom/" thr:count="0"/>
+    <thr:total>0</thr:total>
+  </entry>
+</feed>
+<!-- Dynamic page generated in 0.524 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2010-04-18 16:32:20 -->

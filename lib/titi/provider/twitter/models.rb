@@ -108,7 +108,7 @@ module Titi::Provider
       #   #=> "THANK GOODNESS THE LIBRARY OF CONGRESS HAS UNDERSTOOD THE IMPORTANCE OF MY TWEETS what do you mean others are getting in too"
       #
       def self.fetch_status status_id
-        raw_status = get "http://twitter.com/statuses/show/#{status_id}.json"
+        raw_status = parse_from_get "http://twitter.com/statuses/show/#{status_id}.json"
         adapt(raw_status)
       end
 

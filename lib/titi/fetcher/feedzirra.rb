@@ -1,8 +1,9 @@
+require 'feedzirra'
 module Titi::Fetcher
   module Feedzirra
     module ClassMethods
 
-      def get url
+      def get_and_parse url
         begin
           Feedzirra::Feed.fetch_and_parse(url)
         rescue StandardError => e

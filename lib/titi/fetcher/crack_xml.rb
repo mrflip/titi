@@ -1,3 +1,4 @@
+require 'crack'
 module Titi::Fetcher
   module CrackXml
     module ClassMethods
