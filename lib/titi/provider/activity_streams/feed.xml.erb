@@ -1,4 +1,5 @@
 <feed>
+  <%- feed.entries.each do |entry| %>
   <entry>
     <title><%= entry.title %></title>
     <content type="html"><%= entry.content %></content>
@@ -24,4 +25,5 @@
       </author>
     </activity:object>
   </entry>
+  <%- end %>
 </feed>

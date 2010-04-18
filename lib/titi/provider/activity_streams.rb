@@ -13,13 +13,13 @@ module Titi
           hsh
         end
 
-        def to_xml *args
-          hsh = self.to_hash
-          hsh.to_xml :root => self.class.to_s.underscore.gsub(%r{.*/},'')
-        end
+        # def to_xml *args
+        #   hsh = self.to_hash
+        #   hsh.to_xml :root => self.class.to_s.underscore.gsub(%r{.*/},'')
+        # end
 
         def has_thingy thingy, *args, &block
-          thingy_klass  = ('ActivityStreams::'+thingy.to_s.classify).constantize
+          thingy_klass  = ('ActivityStreams::'+thingy.to_s.camelize).constantize
           thingy_setter = "#{thingy}="
           p [thingy, thingy_klass, thingy_setter]
           self.send(thingy_setter, thingy_klass.new) unless self.send(thingy)
@@ -55,10 +55,23 @@ module Titi
         :entry
         )
       Feed.class_eval do
-        def adapt thingys
-          self.entry = thingys.map do |thingy|
-            thingy.to_activity_stream_entry
-          end
+        # Location of the .erb file for rendering pretty activity streams XML
+        ACTIVITY_STREAMS_TEMPLATE = File.join(File.dirname(__FILE__)+'/activity_streams/feed.xml.erb')
+
+        def entries
+          [entry].flatten
+        end
+
+        def self.activity_streams_template
+          @activity_streams_template ||= File.read(ACTIVITY_STREAMS_TEMPLATE)
+        end
+
+        def self.activity_streams_renderer
+          @activity_streams_renderer ||= Erubis::Eruby.new(activity_streams_template)
+        end
+
+        def to_xml
+          self.class.activity_streams_renderer.result(:feed => self)
         end
       end
 
