@@ -1,0 +1,53 @@
+h2. Gowalla Blog
+
+* http://gowalla.com/users/mrflip 
+
+title type="text"
+id
+entry                           xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/"
+  activity:verb                 :checkin, :share
+  id                            x
+  published                     x
+  updated                       
+  title                         x
+  summary                       x
+  content                       x
+  link_alt                      x
+  link_image                    x
+  link_enclosure                
+  link_preview                  
+  link_related                  item.link
+  link_self
+  georss_point                  x
+  author
+    name                        [author is given at top level of feed, not in each entry]
+    uri                         .
+    link_photo                  .
+  activity:object
+    activity:object-type        activity_streams:place, gowalla:spot
+    title                       x
+    summary                     
+    link_alt                    x
+    link_image                  x
+    link_enclosure              
+    link_preview                
+    link_related
+    georss_point
+    published
+    generator
+    media:description           
+    
+  generator                     
+    name                        'delicious'
+    uri                         'http://delicious.com'
+    icon                        'http://cliqset-services.s3.amazonaws.com/delicious.png'
+    
+  category                      
+
+  thr:total
+  thr:in_reply_to
+    reply                       
+
+NOTES:
+
+* 

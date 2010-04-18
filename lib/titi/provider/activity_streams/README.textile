@@ -1,0 +1,16 @@
+
+
+* checkins
+* NOAA weather advisories, earthquake feeds, weather warning
+*
+* server monitoring
+* github commits
+
+
+"streaming data" vs "reference data"
+
+
+* Mood:
+  - myspace, livejournal, im clients -- is this an object or an attribute
+  - the telecom
+* annotations: 

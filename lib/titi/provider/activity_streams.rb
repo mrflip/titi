@@ -36,13 +36,18 @@ module Titi
         end
       end
 
-      Feed = Struct.new(
+      class ActivityStreamsStruct < ActivityStreamsStruct
+        def self.new *args, &block
+          super
+          include Titi::Adaptor
+          include Titi::Provider::ActivityStreams::Common
+        end
+      end
+
+      Feed = ActivityStreamsStruct.new(
         :entry
         )
       Feed.class_eval do
-        include Titi::Adaptor
-        include Titi::Provider::ActivityStreams::Common
-
         def adapt thingys
           self.entry = thingys.map do |thingy|
             thingy.to_activity_stream_entry
@@ -52,7 +57,7 @@ module Titi
 
       # An ActivityStream entry
       #   http://activitystrea.ms/spec/1.0/atom-activity-01.html#activityentries
-      Entry = Struct.new(
+      Entry = ActivityStreamsStruct.new(
         :id,                # ???
         :title,             # title
         :content,           # content
@@ -61,7 +66,7 @@ module Titi
         :updated,           # date updated
         #
         :category,          # type of entry
-        :verb,              # action it implies
+        :verb,              # action it implies:
         :sync,              # sync
         :rank,              # rank
         #
@@ -73,8 +78,6 @@ module Titi
         :target             # target
         )
       Entry.class_eval do
-        include Titi::Adaptor
-        include Titi::Provider::ActivityStreams::Common
         def published= date_time
           self[:published] = DateTime.parse(date_time) rescue nil
         end
@@ -83,22 +86,43 @@ module Titi
         end
       end
 
+      # <link href="http://twitter.com/banksean/statuses/12244282580"
+      #    type="text/xhtml" rel="via" title="Just saw a @cliqset #salmon @-mention interop demo by @jpanzer. Very neat stuff!">
+      #  </link>
+
+      Link = ActivityStreamsStruct.new(
+        :href,
+        :title,
+        :rel,
+        :type
+        )
+      Link.class_eval do
+      end
+
+      Address = ActivityStreamsStruct.new(
+        :country,
+        :locality,
+        :postalCode,
+        #
+        :xml_keys          # for debugging, capture the keys from the raw XML hash
+        )
+      Address.class_eval do
+      end
+
       # ActivityStream author
       #  http://activitystrea.ms/spec/1.0/atom-activity-01.html#activityactor
-      Actor = Struct.new(
+      Actor = ActivityStreamsStruct.new(
         :name,
         :uri
         )
       Actor.class_eval do
-        include Titi::Adaptor
-        include Titi::Provider::ActivityStreams::Common
       end
       Author = Actor
 
       # ActivityStream object.
       # We can't call them 'Object' (ruby has a class like that already :)
       #   http://activitystrea.ms/spec/1.0/atom-activity-01.html#activityobjectelement
-      Obj = Struct.new(
+      Obj = ActivityStreamsStruct.new(
         :id,
         :title,
         :content,
@@ -107,12 +131,10 @@ module Titi
         :updated,
         #
         :author,
-        :object_type,
+        :object_type,                   # video, post, file
         :vevent
         )
       Obj.class_eval do
-        include Titi::Adaptor
-        include Titi::Provider::ActivityStreams::Common
       end
     end
   end

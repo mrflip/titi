@@ -1,0 +1,87 @@
+h2. Flickr Photos
+
+<pre><code>
+id		        id                                                                      
+published	        published                                                               
+title		        title                                                                   
+                                                                                                
+generator	        'flickr', flickr.com, feed.icon (optional) [was service:provider]         
+summary		        ...                                                                     
+content		        /same/                                                                  
+author                                                                                          
+  name		        entry.author.name                                                       
+  uri		        uri                                                                     
+  id		        flickr_nsid                                                             
+  link	                { rel=photo from flickr_buddyicon }                                     
+                                                                                                
+activity:verb	        ..                                                                      
+                                                                                                
+category                tags                                                                    
+                                                                                                
+atom:source                                                                                     
+  id                    .                                                                       
+  title                 .                                                                       
+  link_alt              .                                                                       
+  updated               .                                                                       
+                                                                                                
+verb                    :post                                                                   
+
+activity:actor
+  
+activity:object
+  id                    atom:entry id
+  title                 .
+  summary               .
+  content               .
+  link_alt              type="text/html"  rel="alt"
+  link_enclosure        type="image/jpeg" rel="enclosure" [this is derived by another call]
+  link_preview          type="image/jpeg" rel="preview"   [this is derived by another call] 
+  published
+  generator
+  activity:object_type  .
+  media:description
+  
+thr:in_reply_to
+  rel
+  href
+
+</code></pre>
+
+NOTES:  
+* entry link rel alt is missing in orginal
+
+
+h2. Flickr Favorites
+
+* http://api.cliqset.com/feed/?svcuser=25419820@N00&feedid=flickrmediafavorited
+
+title type="text"
+id
+entry                           xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/"
+  id                            guid
+  published                     pubDate
+  updated                       [discretionary]
+  link                          item.link            href="http://www.flickr.com/photos/davelawrence8/3663647101/"
+  title                         item.title           type="text"
+  summary                       item.description     type="html"
+  author
+    name                        channel.title
+  activity:verb                 'favorite'
+  activity:object               xmlns:media="http://purl.org/syndication/atommedia"
+    title                       type="text"
+    summary                     .
+    activity:object-type        .
+    summary                     item.description
+    media:description           item.media_description type="text"
+    link                        rel="preview"          type="image/jpeg" href="" media:height="" media:width=""
+    link                        rel="enclosure"        type="image/jpeg" href="" media:height="" media:width="" 
+    link                        rel="alternate"        type="text/html"  href="" 
+  generator
+    name                        'flickr'
+    uri                         .
+    icon                        .
+  activity:actor
+    activity:object-type        .
+    title                       type="text"
+  category
+                                [parse the words into category objects]

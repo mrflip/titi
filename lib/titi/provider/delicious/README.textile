@@ -1,0 +1,48 @@
+h2. Delicious Blog
+
+* http://feeds.delicious.com/v2/rss/seldo?count=15 vs http://api.cliqset.com/feed/?svcuser=seldo&feedid=deliciousbookmarksposted 
+
+title type="text"
+id
+entry                           xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/"
+  activity:verb                 post
+  id                            item.guid
+  published                     item.pubDate
+  updated                       [whatever]
+  title                         item.title
+  summary                       item.description
+  link_alt                      
+  link_enclosure                
+  link_preview                  
+  link_related                  item.link
+  link_self                     
+  author
+    name                        item.dc:creator{ CDATA }
+    uri                         channel.link
+    link_photo                  
+  activity:object
+    activity:object-type        :bookmark
+    title                       item.title
+    summary                     item.description
+    link_alt                    item.guid isPermaLink="false"
+    link_enclosure              
+    link_preview                /generated/
+    link_related                item.link
+    published
+    generator
+    media:description           
+    
+  generator                     
+    name                        'delicious'
+    uri                         'http://delicious.com'
+    icon                        'http://cliqset-services.s3.amazonaws.com/delicious.png'
+    
+  category                      [item.category]
+
+  thr:total
+  thr:in_reply_to
+    reply                       
+
+NOTES:
+
+* alt and related are backwards: can we have another rel=canonical, or nominate of the links as 'main'

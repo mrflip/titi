@@ -1,0 +1,31 @@
+id		
+published	
+title		
+
+generator	
+summary		...
+content		
+author
+  name		
+  uri		
+  id		
+  poco:link	
+
+activity:verb	
+
+category        
+
+source
+  id            .
+  title         .
+  link_alt      actual endpoint queried
+  updated       .
+
+activity:actor
+  
+activity:object
+  id            .
+  
+
+
+entry link rel alt is missing

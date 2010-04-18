@@ -1,0 +1,46 @@
+h2. Tumblr Blog
+
+* http://www.youtube.com/darrenbounds vs http://cliqset.com/feed/atom?uid=dbounds&service=youtube
+
+title type="text"
+id
+entry                           xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/"
+  activity:verb                 post for posts, photo for photos
+  id                            item.guid
+  published                     item.pubDate
+  updated                       [whatever]
+  link_alt                      
+  link_self
+  link_related
+  link_enclosure
+  link_preview                  
+  title                         item.title
+  summary                       item.description
+  author
+    name                        [parse channel.generator]
+    uri                         channel.link
+    link_photo                  
+  activity:object
+    activity:object-type        
+    title                       
+    summary                     .
+    media:description           
+    link_preview                
+    link_alt                    
+    link_enclosure
+  activity:object               [generates additional objects by parsing contents: photos, etc.]
+    link_preview                [fetches photo and thumbnails]
+    
+  generator                     
+    name                        'tumblr'
+    uri                         'http://tumblr.com'
+    icon                        http://cliqset-services.s3.amazonaws.com/tumblr.png
+  category                      item.category
+
+  thr:total
+  thr:in_reply_to
+    reply                       
+
+NOTES:
+
+* Fetches photo 

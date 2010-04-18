@@ -1,0 +1,35 @@
+h2. Youtube RSS
+
+* http://www.youtube.com/darrenbounds vs http://cliqset.com/feed/atom?uid=dbounds&service=youtube
+
+title type="text"
+id
+entry                           xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/"
+  activity:verb                 post
+  id                            item.guid
+  published                     item.pubDate
+  updated                       item.atom:updated
+  link                          
+  title                         
+  summary                       
+  activity:object
+    activity:object-type        video
+    title                       [html-stripped version of the description]
+    summary                     
+    media:description           item.atom:content       type="text"
+    link_preview                [parse from item.description]
+    link_alt                    item.link
+    link_enclosure              [parse from video name]              
+  generator                     
+    name                        'youtube'
+    uri                         'http://youtube.com'
+    icon                        'http://cliqset-services.s3.amazonaws.com/youtube.png'
+  author
+    name                        [from channel.title]
+    uri                         channel.link
+    link_photo                  channel.image.url
+  category                      [none]
+
+  thr:total
+  thr:in_reply_to
+    reply                       
