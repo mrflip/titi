@@ -1,36 +1,32 @@
 # Thank to "Cliqset":http://feedproxy.cliqset.com/feed/selection and Rob Dolin:
 PROVIDERS = {
   # Feeds from http://feedproxy.cliqset.com/feed/selection
-  :social           => %w[ AvatarsUnited   Bebo            Brightkite      Friendster      FriendFeed      GamerDna        Gather          Hi5             Hyves           Identica
+  # it uses straight-lowercased names, not underscored. We've gone underscored. Dunno which to choose
+  :social           => %w[ AvatarsUnited   Bebo            Brightkite      Friendster      Friendfeed      GamerDna        Gather          Hi5             Hyves           Identica
                            Jaiku           Multiply        Netlog          Plurk           Raptr           Skyrock         Twitter                                                                              ],
-  :blogging         => %w[ Ameba           Baidu           Blogger         CustomFeed      Douban          LiveJournal     Posterous       Tumblr          WordPress       Xanga                                   ],
-  :bookmarking      => %w[ Delicious       Digg            Diigo           GoogleReader    Hatena          Meneame         Mixx            Newsvine        Propeller       Reddit          StumbleUpon     Twine   ],
-  :music            => %w[ BlipFm          Buzznet         Ilike           LastFm          Pandora         Zooomr                                                                                                  ],
-  :video            => %w[ TwelveSeconds   BlipTv          Cinchcast       DailyMotion     FunnyOrDie      Hulu            Joost           MetaCafe        Qik             Revver          Vimeo           Youtube ],
-  :photos           => %w[ DeviantArt      Flickr          Fotolog         MobyPicture     Photobucket     Picasa          Photocase       SlideShare      Smotri          SmugMug         Visualizeus             ],
-  :reviews          => %w[ Blippr          Corkd           Flixster        Goodreads       LibraryThing    Qype            Readernaut      Yelp                                                                    ],
+  :blogging         => %w[ Ameba           Baidu           Blogger         Douban          Livejournal     Posterous       Tumblr          Wordpress       Xanga                                   ],
+  :bookmarking      => %w[ Delicious       Digg            Diigo           GoogleReader    Hatena          Meneame         Mixx            Newsvine        Propeller       Reddit          Stumbleupon     Twine   ],
+  :music            => %w[ Blipfm          Buzznet         Ilike           Lastfm          Pandora         Zooomr                                                                                                  ],
+  :video            => %w[ TwelveSeconds   Bliptv          Cinchcast       DailyMotion     FunnyOrDie      Hulu            Joost           Metacafe        Qik             Revver          Vimeo           Youtube ],
+  :photos           => %w[ DeviantArt      Flickr          Fotolog         MobyPicture     Photobucket     Picasa          Photocase       Slideshare      Smotri          Smugmug         Visualizeus             ],
+  :reviews          => %w[ Blippr          Corkd           Flixster        Goodreads       Librarything    Qype            Readernaut      Yelp                                                                    ],
 
-  # # Not yet implemented -- want to help?
-  #
-  # :more_text_status   => %w[ AIM             WlMessenger                                                 ],
-  # :more_location      => %w[ Gowalla         Foursquare      Tripit          UrbanSpoon            Whirl ],
-  # :more_gaming        => %w[ Zynga           Playdom         MsgrGames                                   ],
-  # :more_social        => %w[ Facebook        LinkedIn        Xing            Plaxo                       ],
-  # :more_music         => %w[ Zune                                                                        ],
-  # :more_video         => %w[ BuddyTv                                                                     ],
-  # :more_photos        => %w[ MetroFlog       WlSkyDrive                                                  ],
-  # :more_blogging      => %w[ TypePad         MySpace         MoveableType    WlSpaces                    ],
+  :activity_streams => %w[ Gowalla         Myspace]
+
+  # # Not yet implemented, need example mappings -- want to help?
+  # :more_text_status   => %w[ AIM                             WlMessenger            ],
+  # :more_location      => %w[ Foursquare      Tripit          UrbanSpoon       Whirl ],
+  # :more_gaming        => %w[ Zynga           Playdom         MsgrGames              ],
+  # :more_social        => %w[ Facebook        LinkedIn        Plaxo            Xing  ],
+  # :more_music         => %w[ Zune                                                   ],
+  # :more_video         => %w[ BuddyTv                                                ],
+  # :more_photos        => %w[ MetroFlog                       WlSkyDrive             ],
+  # :more_blogging      => %w[ TypePad         MoveableType    WlSpaces               ],
 }
 
-# # # Feedproxy uses straight-lowercased names, not underscored. We've gone underscored. Dunno which to choose
-# # #
-# # :SocialNetworking       => %w[ avatarsunited bebo brightkite friendster friendfeed gamerdna gather hi5 hyves identica jaiku multiply netlog plurk raptr skyrock twitter ],
-# # :Blogging               => %w[ ameba baidu blogger customfeed douban livejournal posterous tumblr wordpress xanga],
-# # :BookmarkingNews        => %w[ delicious digg diigo googlereader hatena meneame mixx newsvine propeller reddit stumbleupon twine ],
-# # :MusicVideosPhotosFiles => %w[ 12seconds blipfm bliptv buzznet cinchcast dailymotion deviantart flickr fotolog funnyordie hulu ilike joost lastfm metacafe mobypicture pandora photobucket photocase picasa qik revver slideshare smotri smugmug visualizeus vimeo youtube zooomr ],
-# # :ReviewsRating          => %w[ blippr corkd flixster goodreads librarything qype readernaut yelp ],
-
-FEEDPROXY_FEEDS = {
+FEEDPROXY_FEEDS = [
+  # %w[ customfeed              weblogs                posted      ],
+  #
   %w[ tweleveseconds          videos                 posted      ],
   %w[ ameba                   weblogs                posted      ],
   %w[ avatarsunited           weblogs                posted      ],
@@ -46,7 +42,6 @@ FEEDPROXY_FEEDS = {
   %w[ buzznet                 videos                 posted      ],
   %w[ cinchcast               media                  posted      ],
   %w[ corkd                   reviews                posted      ],
-  %w[ customfeed              weblogs                posted      ],
   %w[ dailymotion             videos                 posted      ],
   %w[ delicious               bookmarks              posted      ],
   %w[ deviantart              weblogs                posted      ],
@@ -139,4 +134,8 @@ FEEDPROXY_FEEDS = {
   %w[ youtube                 videos                 posted      ],
   %w[ youtube                 videos                 favorited   ],
   %w[ zooomr                  photos                 posted      ],
-}
+]
+
+
+# load './lib/titi/provider/list_of_providers.rb' ; pr = PROVIDERS.values.flatten.map(&:underscore).to_set ; ff = FEEDPROXY_FEEDS.map{|provider, obj, verb| provider }.uniq.sort.to_set
+# p (ff - pr).sort ; p (pr - ff).sort
