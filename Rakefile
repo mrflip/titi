@@ -9,7 +9,7 @@ begin
     gem.description = %Q{Facade adapting apis to activity streams spec}
     gem.email       = "flip@infochimps.org"
     gem.homepage    = "http://github.com/mrflip/titi"
-    gem.authors     = ["mrflip"]
+    gem.authors     = ["Philip (flip) Kromer @mrflip"]
     gem.add_dependency             "restclient", ">= 0.0.0"
     gem.add_dependency             "json",       ">= 0.0.0"
     gem.add_dependency             "wukong",     ">= 1.4.7"

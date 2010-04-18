@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 require 'rubygems'
-TITI_DIR = File.dirname(File.expand_path(__FILE__+'/..')) unless defined?(TITI_DIR)
-$: << TITI_DIR+'/lib' unless $:.include?(TITI_DIR+'/lib')
 require 'titi' ; include Titi::Provider
-require 'titi/provider/twitter'
 
-tweet   = Twitter::Status.fetch_status(12233609555)
+status_to_fetch = ARGV.first || 12233609555
+
+$stderr.puts "Fetching status #{status_to_fetch} and converting to activity stream..."
+tweet   = Twitter::Status.fetch_status(status_to_fetch)
 tw_feed = tweet.to_activity_stream
 puts tw_feed.to_xml
