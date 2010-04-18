@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <atom:link rel="hub" href="http://tumblr.superfeedr.com/" xmlns:atom="http://www.w3.org/2005/Atom" />
+        <description>Random thoughts, cool tools, links from the infochimps dev team</description>
+        <title>Infochimps Dev Blog - Rails, Ruby, Data</title>
+        <generator>Tumblr (3.0; @infochimps)</generator>
+        <link>http://infochimps.tumblr.com/</link>
+        <item>
+            <title>How to create datasets that the rest of the world needs</title>
+            <description>&lt;a href="http://blog.infochimps.org/2010/03/04/how-to-create-datasets-that-the-rest-of-the-world-needs/"&gt;How to create datasets that the rest of the world needs&lt;/a&gt;: &lt;p&gt;We recently created a dataset for the web site that is a map between IP addresses to zip codes and census demographic information. The work that was involved in this is representative of the type of…&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/426785210</link>
+            <guid>http://infochimps.tumblr.com/post/426785210</guid>
+            <pubDate>Thu, 04 Mar 2010 14:59:57 -0600</pubDate>
+        </item>
+        <item>
+            <title>Looking for #CouchDB #MongoDB etc experts @ #SxSW brave enough for @stuhood’s #NoSQL...</title>
+            <description>&lt;p&gt;Looking for #CouchDB #MongoDB etc experts @ #SxSW brave enough for @stuhood’s #NoSQL Smackdown, email us! &lt;a href="http://j.mp/sxswdata"&gt;http://j.mp/sxswdata&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/422777460</link>
+            <guid>http://infochimps.tumblr.com/post/422777460</guid>
+            <pubDate>Tue, 02 Mar 2010 16:42:33 -0600</pubDate>
+        </item>
+        <item>
+            <title>Yay! #cassandra committer @stuhood confirmed as panelist for #SxSW data meetup...</title>
+            <description>&lt;p&gt;Yay! #cassandra committer @stuhood confirmed as panelist for #SxSW data meetup &lt;a href="http://bit.ly/sxswdata"&gt;http://bit.ly/sxswdata&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/421539212</link>
+            <guid>http://infochimps.tumblr.com/post/421539212</guid>
+            <pubDate>Tue, 02 Mar 2010 00:20:11 -0600</pubDate>
+        </item>
+        <item>
+            <title>Free report “Data, Data Everywhere” by @TheEconomist http://bit.ly/econdr featuring...</title>
+            <description>&lt;p&gt;Free report “Data, Data Everywhere” by @TheEconomist &lt;a href="http://bit.ly/econdr"&gt;http://bit.ly/econdr&lt;/a&gt; featuring “Data Deluge” &lt;a href="http://bit.ly/econdd"&gt;http://bit.ly/econdd&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/420200817</link>
+            <guid>http://infochimps.tumblr.com/post/420200817</guid>
+            <pubDate>Mon, 01 Mar 2010 12:08:57 -0600</pubDate>
+        </item>
+        <item>
+            <title>Eatin good with @RenneR and @fishbandito</title>
+            <description>&lt;p&gt;Eatin good with @RenneR and @fishbandito&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/414634682</link>
+            <guid>http://infochimps.tumblr.com/post/414634682</guid>
+            <pubDate>Fri, 26 Feb 2010 22:14:59 -0600</pubDate>
+        </item>
+        <item>
+            <title>Congrats! RT @bjheinleyCarrie and I (and @Verdecamp ) made the business section of the Austin...</title>
+            <description>&lt;p&gt;Congrats! RT @bjheinleyCarrie and I (and @Verdecamp ) made the business section of the Austin American Statesman today.. &lt;a href="http://ow.ly/1bC89"&gt;http://ow.ly/1bC89&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/413775600</link>
+            <guid>http://infochimps.tumblr.com/post/413775600</guid>
+            <pubDate>Fri, 26 Feb 2010 13:59:06 -0600</pubDate>
+        </item>
+        <item>
+            <title>Sorry everybody for the fraudulent DM’s, should be fixed now</title>
+            <description>&lt;p&gt;Sorry everybody for the fraudulent DM’s, should be fixed now&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/411273410</link>
+            <guid>http://infochimps.tumblr.com/post/411273410</guid>
+            <pubDate>Thu, 25 Feb 2010 09:22:04 -0600</pubDate>
+        </item>
+        <item>
+            <title>Take a look at what data people are requesting on Infochimps.org:...</title>
+            <description>&lt;p&gt;Take a look at what data people are requesting on Infochimps.org: &lt;a href="http://infochimps.org/dataset_requests"&gt;http://infochimps.org/dataset_requests&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/409523799</link>
+            <guid>http://infochimps.tumblr.com/post/409523799</guid>
+            <pubDate>Wed, 24 Feb 2010 13:52:07 -0600</pubDate>
+        </item>
+        <item>
+            <title>At least its sunny on our iPhones RT @VizWorld: NASA - 3D Sun for the iPhone http://bit.ly/99YGUQ</title>
+            <description>&lt;p&gt;At least its sunny on our iPhones RT @VizWorld: NASA - 3D Sun for the iPhone &lt;a href="http://bit.ly/99YGUQ"&gt;http://bit.ly/99YGUQ&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/407795729</link>
+            <guid>http://infochimps.tumblr.com/post/407795729</guid>
+            <pubDate>Tue, 23 Feb 2010 17:26:22 -0600</pubDate>
+        </item>
+        <item>
+            <title>organizing a data cluster meetup at SXSW. join us! details and rsvp at http://bit.ly/sxswdata</title>
+            <description>&lt;p&gt;organizing a data cluster meetup at SXSW. join us! details and rsvp at &lt;a href="http://bit.ly/sxswdata"&gt;http://bit.ly/sxswdata&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/405670991</link>
+            <guid>http://infochimps.tumblr.com/post/405670991</guid>
+            <pubDate>Mon, 22 Feb 2010 17:02:16 -0600</pubDate>
+        </item>
+        <item>
+            <title>RT @kristiewells:Twitter+data visualization=important advances in sensemaking from Harvard Biz...</title>
+            <description>&lt;p&gt;RT @kristiewells:Twitter+data visualization=important advances in sensemaking from Harvard Biz Review.http://bit.ly/czOD6C&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/404452378</link>
+            <guid>http://infochimps.tumblr.com/post/404452378</guid>
+            <pubDate>Mon, 22 Feb 2010 00:58:30 -0600</pubDate>
+        </item>
+        <item>
+            <title>What a great day for dataviz! Dataviz u can play with: http://bit.ly/abviz &amp; @NSF dataviz...</title>
+            <description>&lt;p&gt;What a great day for dataviz! Dataviz u can play with: &lt;a href="http://bit.ly/abviz"&gt;http://bit.ly/abviz&lt;/a&gt; &amp; @NSF dataviz winners: &lt;a href="http://bit.ly/nsfdvw"&gt;http://bit.ly/nsfdvw&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/399260073</link>
+            <guid>http://infochimps.tumblr.com/post/399260073</guid>
+            <pubDate>Fri, 19 Feb 2010 16:31:06 -0600</pubDate>
+        </item>
+        <item>
+            <title>What a great day for dataviz! Dataviz you can play with: bit.ly/abviz &amp; Slideshow of @NSF...</title>
+            <description>&lt;p&gt;What a great day for dataviz! Dataviz you can play with: bit.ly/abviz &amp; Slideshow of @NSF dataviz winners: bit.ly/nsfdvw&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/399260075</link>
+            <guid>http://infochimps.tumblr.com/post/399260075</guid>
+            <pubDate>Fri, 19 Feb 2010 16:31:06 -0600</pubDate>
+        </item>
+        <item>
+            <title>RT @mrflip: @infochimps on @adamstac’s Web 2.0 show talking about #bigdata, @capitalfactory...</title>
+            <description>&lt;p&gt;RT @mrflip: @infochimps on @adamstac’s Web 2.0 show talking about #bigdata, @capitalfactory &amp; the pitch: &lt;a href="http://bit.ly/web20show"&gt;http://bit.ly/web20show&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/395058634</link>
+            <guid>http://infochimps.tumblr.com/post/395058634</guid>
+            <pubDate>Wed, 17 Feb 2010 12:56:10 -0600</pubDate>
+        </item>
+        <item>
+            <title>RT @WebTrends blog: Win InfoChimps Twitter Census Data!: http://bit.ly/9FwD9A</title>
+            <description>&lt;p&gt;RT @WebTrends blog: Win InfoChimps Twitter Census Data!: &lt;a href="http://bit.ly/9FwD9A"&gt;http://bit.ly/9FwD9A&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/393538440</link>
+            <guid>http://infochimps.tumblr.com/post/393538440</guid>
+            <pubDate>Tue, 16 Feb 2010 17:29:17 -0600</pubDate>
+        </item>
+        <item>
+            <title>Our own @mrflip at the SemWebAustin panel tonight, to discuss #opendata plans for City of Austin!...</title>
+            <description>&lt;p&gt;Our own @mrflip at the SemWebAustin panel tonight, to discuss #opendata plans for City of Austin! 6:00pm at @texascoworking&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/391486694</link>
+            <guid>http://infochimps.tumblr.com/post/391486694</guid>
+            <pubDate>Mon, 15 Feb 2010 16:13:14 -0600</pubDate>
+        </item>
+        <item>
+            <title>Does it pay to work for Texas? Useful app from the @TexasTribune - hooray for #opendata!...</title>
+            <description>&lt;p&gt;Does it pay to work for Texas? Useful app from the @TexasTribune - hooray for #opendata! &lt;a href="http://bit.ly/txpay"&gt;http://bit.ly/txpay&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/391486690</link>
+            <guid>http://infochimps.tumblr.com/post/391486690</guid>
+            <pubDate>Mon, 15 Feb 2010 16:13:14 -0600</pubDate>
+        </item>
+        <item>
+            <title>RT @mikeolson @peteskomoroch @ChrisDiehl: Haiti Twitter data from @infochimps - http://is.gd/8diWv</title>
+            <description>&lt;p&gt;RT @mikeolson @peteskomoroch @ChrisDiehl: Haiti Twitter data from @infochimps - &lt;a href="http://is.gd/8diWv"&gt;http://is.gd/8diWv&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/386149215</link>
+            <guid>http://infochimps.tumblr.com/post/386149215</guid>
+            <pubDate>Fri, 12 Feb 2010 16:56:02 -0600</pubDate>
+        </item>
+        <item>
+            <title>Best one yet: http://bit.ly/clSg9q @austininformavore, @royalfrasier, @austinstartup Informavor:...</title>
+            <description>&lt;p&gt;Best one yet: &lt;a href="http://bit.ly/clSg9q"&gt;http://bit.ly/clSg9q&lt;/a&gt; @austininformavore, @royalfrasier, @austinstartup Informavor: What Vegas Can Teach Entrepreneurs&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/385306359</link>
+            <guid>http://infochimps.tumblr.com/post/385306359</guid>
+            <pubDate>Fri, 12 Feb 2010 04:10:36 -0600</pubDate>
+        </item>
+        <item>
+            <title>Compare national responses to the Haitian crisis with this great viz: http://bit.ly/aidviz</title>
+            <description>&lt;p&gt;Compare national responses to the Haitian crisis with this great viz: &lt;a href="http://bit.ly/aidviz"&gt;http://bit.ly/aidviz&lt;/a&gt;&lt;/p&gt;</description>
+            <link>http://infochimps.tumblr.com/post/378338347</link>
+            <guid>http://infochimps.tumblr.com/post/378338347</guid>
+            <pubDate>Mon, 08 Feb 2010 11:23:28 -0600</pubDate>
+        </item>
+    </channel>
+</rss> 

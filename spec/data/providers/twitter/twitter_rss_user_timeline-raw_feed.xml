@@ -1,0 +1,83 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://pubsubhubbub.appspot.com/" rel="hub"></link><title type="text">Activity Stream for: dbounds</title><id>http://cliqset.com/feed/atom?uid=dbounds</id><entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/"><thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+    <id>http://twitter.com/dbounds/statuses/12252880775</id>
+    <published>2010-04-16T00:18:15.000Z</published>
+    <updated>2010-04-16T00:18:15.961Z</updated>
+    <link href="http://twitter.com/banksean/statuses/12244282580" type="text/xhtml" rel="via" title="Just saw a @cliqset #salmon @-mention interop demo by @jpanzer. Very neat stuff!"></link>
+    <title type="text">dbounds shared : banksean posted a note on Twitter</title>
+    <summary type="html">RT @banksean: Just saw a @cliqset #salmon @-mention interop demo by @jpanzer. Very neat stuff!</summary>
+    <author>
+      <name>dbounds</name>
+      <uri>http://cliqset.com/user/dbounds</uri>
+    </author>
+    <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
+    <service:provider>
+      <name>twitter</name>
+      <uri>http://twitter.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/twitter.png</icon>
+    </service:provider>
+    <category scheme="http://schemas.cliqset.com/activity/tags/1.0" term="salmon" label="salmon"></category>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <id>http://twitter.com/dbounds/statuses/12252880775</id>
+      <content type="text">Just saw a @cliqset #salmon @-mention interop demo by @jpanzer. Very neat stuff!</content>
+      <link rel="alternate" type="text/html" href="http://twitter.com/dbounds/statuses/12252880775"></link>
+    <id>http://twitter.com/dbounds/statuses/12252880775/0</id></activity:object>
+    <contributor>
+      <name>banksean</name>
+      <uri>http://twitter.com/banksean</uri>
+    </contributor>
+    <category scheme="http://schemas.cliqset.com/activity/categories/1.0" term="StatusShared" label="Status Shared"></category>
+    <link href="http://cliqset.com/user/dbounds/MTIyNTI4ODA3NzUe" type="text/xhtml" rel="alternate" title="dbounds shared : banksean posted a note on Twitter"></link>
+    <activity:actor xmlns:poco="http://portablecontacts.net/spec/1.0">
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <poco:name>
+        <poco:givenName>Darren</poco:givenName>
+        <poco:familyName>Bounds</poco:familyName>
+      </poco:name>
+      <link xmlns:media="http://purl.org/syndication/atommedia" type="image/png" rel="avatar" href="http://dynamic.cliqset.com/avatar/dbounds?s=80" media:height="80" media:width="80"></link>
+      <link xmlns:media="http://purl.org/syndication/atommedia" type="image/png" rel="avatar" href="http://dynamic.cliqset.com/avatar/dbounds?s=120" media:height="120" media:width="120"></link>
+      <link xmlns:media="http://purl.org/syndication/atommedia" type="image/png" rel="avatar" href="http://dynamic.cliqset.com/avatar/dbounds?s=200" media:height="200" media:width="200"></link>
+    <link href="http://cliqset.com/user/dbounds" rel="alternate" type="text/html" length="0"></link><id>http://cliqset.com/user/dbounds</id></activity:actor>
+  </entry>
+  <entry xmlns:service="http://activitystrea.ms/service-provider" xmlns:activity="http://activitystrea.ms/spec/1.0/"><thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+    <published>2010-04-15T16:34:33.000Z</published>
+    <summary type="html">RT @ChrisSaad: I'm speechless... how do we allow this to continue? http://wikileaks.org/</summary>
+    <service:provider>
+      <name>twitter</name>
+      <uri>http://twitter.com</uri>
+      <icon>http://cliqset-services.s3.amazonaws.com/twitter.png</icon>
+    </service:provider>
+    <id>http://twitter.com/dbounds/statuses/12232309965</id>
+    <activity:verb>http://activitystrea.ms/schema/1.0/share</activity:verb>
+    <activity:object>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
+      <id>http://twitter.com/dbounds/statuses/12232309965</id>
+      <content type="text">I'm speechless... how do we allow this to continue? http://wikileaks.org/</content>
+      <link rel="alternate" type="text/html" href="http://twitter.com/dbounds/statuses/12232309965"></link>
+    <id>http://twitter.com/dbounds/statuses/12232309965/0</id></activity:object>
+    <contributor>
+      <name>Chris Saad</name>
+      <uri>http://cliqset.com/user/chrissaad</uri>
+    </contributor>
+    <link href="http://cliqset.com/user/chrissaad/MTIyMzE3ODM3MjIe" type="text/xhtml" rel="via" title="chrissaad posted a note on Twitter"></link>
+    <title type="text">dbounds shared : chrissaad posted a note on Twitter</title>
+    <category scheme="http://schemas.cliqset.com/activity/categories/1.0" term="StatusShared" label="Status Shared"></category>
+    <updated>2010-04-15T16:34:35.214Z</updated>
+    <link href="http://cliqset.com/user/dbounds/MTIyMzIzMDk5NjUe" type="text/xhtml" rel="alternate" title="dbounds shared : chrissaad posted a note on Twitter"></link>
+    <author>
+      <name>dbounds</name>
+      <uri>http://cliqset.com/user/dbounds</uri>
+    </author>
+    <activity:actor xmlns:poco="http://portablecontacts.net/spec/1.0">
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+      <poco:name>
+        <poco:givenName>Darren</poco:givenName>
+        <poco:familyName>Bounds</poco:familyName>
+      </poco:name>
+      <link xmlns:media="http://purl.org/syndication/atommedia" type="image/png" rel="avatar" href="http://dynamic.cliqset.com/avatar/dbounds?s=80" media:height="80" media:width="80"></link>
+      <link xmlns:media="http://purl.org/syndication/atommedia" type="image/png" rel="avatar" href="http://dynamic.cliqset.com/avatar/dbounds?s=120" media:height="120" media:width="120"></link>
+      <link xmlns:media="http://purl.org/syndication/atommedia" type="image/png" rel="avatar" href="http://dynamic.cliqset.com/avatar/dbounds?s=200" media:height="200" media:width="200"></link>
+    <link href="http://cliqset.com/user/dbounds" rel="alternate" type="text/html" length="0"></link><id>http://cliqset.com/user/dbounds</id></activity:actor>
+  </entry>
+</feed>

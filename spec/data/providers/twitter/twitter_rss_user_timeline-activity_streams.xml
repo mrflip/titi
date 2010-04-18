@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:georss="http://www.georss.org/georss">
+  <channel>
+    <title>Twitter / dbounds</title>
+    <link>http://twitter.com/dbounds</link>
+    <atom:link type="application/rss+xml" href="http://twitter.com/statuses/user_timeline/14402132.rss" rel="self"/>
+    <description>Twitter updates from Darren Bounds / dbounds.</description>
+    <language>en-us</language>
+    <ttl>40</ttl>
+  <item>
+    <title>dbounds: RT @banksean: Just saw a @cliqset #salmon @-mention interop demo by @jpanzer. Very neat stuff!</title>
+    <description>dbounds: RT @banksean: Just saw a @cliqset #salmon @-mention interop demo by @jpanzer. Very neat stuff!</description>
+    <pubDate>Fri, 16 Apr 2010 00:18:15 +0000</pubDate>
+    <guid>http://twitter.com/dbounds/statuses/12252880775</guid>
+    <link>http://twitter.com/dbounds/statuses/12252880775</link>
+  </item>
+  <item>
+    <title>dbounds: Wow. Ning laying off 40% of their employees and saying goodbye to free social networks. http://cs.cm/173NZ</title>
+    <description>dbounds: Wow. Ning laying off 40% of their employees and saying goodbye to free social networks. http://cs.cm/173NZ</description>
+    <pubDate>Thu, 15 Apr 2010 17:58:59 +0000</pubDate>
+    <guid>http://twitter.com/dbounds/statuses/12236191485</guid>
+    <link>http://twitter.com/dbounds/statuses/12236191485</link>
+  </item>
+  <item>
+    <title>dbounds: RT @ChrisSaad: I'm speechless... how do we allow this to continue? http://wikileaks.org/</title>
+    <description>dbounds: RT @ChrisSaad: I'm speechless... how do we allow this to continue? http://wikileaks.org/</description>
+    <pubDate>Thu, 15 Apr 2010 16:34:33 +0000</pubDate>
+    <guid>http://twitter.com/dbounds/statuses/12232309965</guid>
+    <link>http://twitter.com/dbounds/statuses/12232309965</link>
+  </item>
+  <item>
+    <title>dbounds: Shared: Ansi is UNDEAD-blocktronics http://cs.cm/p7iIo</title>
+    <description>dbounds: Shared: Ansi is UNDEAD-blocktronics http://cs.cm/p7iIo</description>
+    <pubDate>Wed, 14 Apr 2010 19:24:58 +0000</pubDate>
+    <guid>http://twitter.com/dbounds/statuses/12179694919</guid>
+    <link>http://twitter.com/dbounds/statuses/12179694919</link>
+  </item>
+  <item>
+    <title>dbounds: Twitter supporting custom annotations is HUGE. The 140 character boundary is gone. Richer and larger content has arrived.</title>
+    <description>dbounds: Twitter supporting custom annotations is HUGE. The 140 character boundary is gone. Richer and larger content has arrived.</description>
+    <pubDate>Wed, 14 Apr 2010 18:39:13 +0000</pubDate>
+    <guid>http://twitter.com/dbounds/statuses/12177784209</guid>
+    <link>http://twitter.com/dbounds/statuses/12177784209</link>
+  </item>
+  </channel>
+</rss>
