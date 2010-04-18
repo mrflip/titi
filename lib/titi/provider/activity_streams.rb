@@ -36,12 +36,19 @@ module Titi
         end
       end
 
-      class ActivityStreamsStruct < ActivityStreamsStruct
-        def self.new *args, &block
-          super
-          include Titi::Adaptor
-          include Titi::Provider::ActivityStreams::Common
+      class ActivityStreamsStruct < Struct
+        include Titi::Adaptor
+        include Titi::Provider::ActivityStreams::Common
+
+        def attributes= hsh
+          conv_hsh = {}
+          hsh.each do |k,v|
+            k = k.to_s.gsub(/:/,'_') if k =~ /:/
+            conv_hsh[k] = v
+          end
+          super hsh
         end
+
       end
 
       Feed = ActivityStreamsStruct.new(
@@ -61,7 +68,12 @@ module Titi
         :id,                # ???
         :title,             # title
         :content,           # content
-        :link,              # link             {"href"=>"http://x.myspacecdn.com/modules/common/static/img/photo.gif", "rel"=>"icon", "type"=>"image/gif"}
+        :link_alt,          # link             {"href"=>"http://x.myspacecdn.com/modules/common/static/img/photo.gif", "rel"=>"icon", "type"=>"image/gif"}
+        :link_enclosure,    # link             {"href"=>"http://x.myspacecdn.com/modules/common/static/img/photo.gif", "rel"=>"icon", "type"=>"image/gif"}
+        :link_preview,      # link             {"href"=>"http://x.myspacecdn.com/modules/common/static/img/photo.gif", "rel"=>"icon", "type"=>"image/gif"}
+        :link_icon,         # link             {"href"=>"http://x.myspacecdn.com/modules/common/static/img/photo.gif", "rel"=>"icon", "type"=>"image/gif"}
+        :link_related,      # link             {"href"=>"http://x.myspacecdn.com/modules/common/static/img/photo.gif", "rel"=>"icon", "type"=>"image/gif"}
+
         :published,         # date published
         :updated,           # date updated
         #
@@ -126,7 +138,7 @@ module Titi
         :id,
         :title,
         :content,
-        :link,
+        :link_alt,
         :published,
         :updated,
         #

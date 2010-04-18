@@ -138,3 +138,5 @@ FEEDPROXY_FEEDS = [
 
 # load './lib/titi/provider/list_of_providers.rb' ; pr = PROVIDERS.values.flatten.map(&:underscore).to_set ; ff = FEEDPROXY_FEEDS.map{|provider, obj, verb| provider }.uniq.sort.to_set
 # p (ff - pr).sort ; p (pr - ff).sort
+
+true

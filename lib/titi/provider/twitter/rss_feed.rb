@@ -27,17 +27,16 @@ module Titi::Provider
           # :title     => text,
           # :content   => text,
           :verb      => :post
-          )
-        do |entry|
+          ) do |entry|
           entry.has_link(:href, :title, :rel, 'text/xhtml')
-        #   entry.has_author user.name, user.url
-        #   entry.has_obj do |activity_obj|
-        #     activity_obj.id        = id
-        #     activity_obj.title     = text
-        #     activity_obj.published = created_at
-        #     activity_obj.updated   = created_at
-        #     activity_obj.author    = entry.author
-        #   end
+          #   entry.has_author user.name, user.url
+          #   entry.has_obj do |activity_obj|
+          #     activity_obj.id        = id
+          #     activity_obj.title     = text
+          #     activity_obj.published = created_at
+          #     activity_obj.updated   = created_at
+          #     activity_obj.author    = entry.author
+          #   end
         end
 
       end
