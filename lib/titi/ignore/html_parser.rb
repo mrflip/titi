@@ -189,7 +189,9 @@
 #
 # puts "#{File.basename(__FILE__)}: Something clever" # at bottom
 
-require 'imw/parsers/html_parser/matchers'
+require File.dirname(__FILE__)+'hpricot'
+require File.dirname(__FILE__)+'matchers'
+require File.dirname(__FILE__)+'parse_tree'
 
 module IMW
   module Parsers

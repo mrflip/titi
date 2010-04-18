@@ -10,11 +10,14 @@ begin
     gem.email       = "flip@infochimps.org"
     gem.homepage    = "http://github.com/mrflip/titi"
     gem.authors     = ["mrflip"]
-    gem.add_dependency "restclient",     ">= 0.0.0"
-    gem.add_dependency "wukong",         ">= 0.0.0"
-    gem.add_dependency "active_support", ">= 0.0.0"
-    gem.add_development_dependency "rspec", ">= 1.2.9"
-    gem.add_development_dependency "yard", ">= 0"
+    gem.add_dependency             "restclient", ">= 0.0.0"
+    gem.add_dependency             "json",       ">= 0.0.0"
+    gem.add_dependency             "wukong",     ">= 1.4.7"
+    gem.add_dependency             "extlib",     ">= 1.4.7"
+    gem.add_dependency             "crack",      ">= 0.0.0"
+    gem.add_dependency             "erubis",     ">= 0.0.0"
+    gem.add_development_dependency "rspec",      ">= 1.2.9"
+    gem.add_development_dependency "yard",       ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

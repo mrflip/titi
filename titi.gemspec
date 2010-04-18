@@ -246,21 +246,30 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<restclient>, [">= 0.0.0"])
-      s.add_runtime_dependency(%q<wukong>, [">= 0.0.0"])
-      s.add_runtime_dependency(%q<active_support>, [">= 0.0.0"])
+      s.add_runtime_dependency(%q<json>, [">= 0.0.0"])
+      s.add_runtime_dependency(%q<wukong>, [">= 1.4.7"])
+      s.add_runtime_dependency(%q<extlib>, [">= 1.4.7"])
+      s.add_runtime_dependency(%q<crack>, [">= 0.0.0"])
+      s.add_runtime_dependency(%q<erubis>, [">= 0.0.0"])
       s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_development_dependency(%q<yard>, [">= 0"])
     else
       s.add_dependency(%q<restclient>, [">= 0.0.0"])
-      s.add_dependency(%q<wukong>, [">= 0.0.0"])
-      s.add_dependency(%q<active_support>, [">= 0.0.0"])
+      s.add_dependency(%q<json>, [">= 0.0.0"])
+      s.add_dependency(%q<wukong>, [">= 1.4.7"])
+      s.add_dependency(%q<extlib>, [">= 1.4.7"])
+      s.add_dependency(%q<crack>, [">= 0.0.0"])
+      s.add_dependency(%q<erubis>, [">= 0.0.0"])
       s.add_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_dependency(%q<yard>, [">= 0"])
     end
   else
     s.add_dependency(%q<restclient>, [">= 0.0.0"])
-    s.add_dependency(%q<wukong>, [">= 0.0.0"])
-    s.add_dependency(%q<active_support>, [">= 0.0.0"])
+    s.add_dependency(%q<json>, [">= 0.0.0"])
+    s.add_dependency(%q<wukong>, [">= 1.4.7"])
+    s.add_dependency(%q<extlib>, [">= 1.4.7"])
+    s.add_dependency(%q<crack>, [">= 0.0.0"])
+    s.add_dependency(%q<erubis>, [">= 0.0.0"])
     s.add_dependency(%q<rspec>, [">= 1.2.9"])
     s.add_dependency(%q<yard>, [">= 0"])
   end
