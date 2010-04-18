@@ -189,9 +189,9 @@
 #
 # puts "#{File.basename(__FILE__)}: Something clever" # at bottom
 
-require File.dirname(__FILE__)+'hpricot'
-require File.dirname(__FILE__)+'matchers'
-require File.dirname(__FILE__)+'parse_tree'
+require File.dirname(__FILE__)+'/hpricot'
+require File.dirname(__FILE__)+'/matcher'
+require File.dirname(__FILE__)+'/parse_tree'
 
 module IMW
   module Parsers

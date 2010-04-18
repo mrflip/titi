@@ -1,10 +1,10 @@
 module Titi::Fetcher
-  module Json
+  module Feedzirra
     module ClassMethods
 
-      def parse raw_json_str
+      def get url
         begin
-          return JSON.load(raw_json_str)
+          Feedzirra::Feed.fetch_and_parse(url)
         rescue StandardError => e
           warn e
           return { }

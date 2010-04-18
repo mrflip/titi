@@ -3,6 +3,8 @@ module Titi
     autoload :ActivityStreams, 'titi/provider/activity_streams'
     #
     autoload :Twitter     , 'titi/provider/twitter'
+    autoload :GenericFeed , 'titi/provider/generic_feed'
+
     # autoload :Gowalla   , 'titi/provider/gowalla'
     # autoload :Foursquare, 'titi/provider/foursquare'
     # autoload :Tripit    , 'titi/provider/tripit'

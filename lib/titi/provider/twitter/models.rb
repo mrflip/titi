@@ -101,6 +101,12 @@ module Titi::Provider
       end
 
       # Create a new status by fetching the given status_id via the 'statuses/show' API call
+      #
+      # @example
+      #   raw_tweet = Status.fetch_status(12233609555)
+      #   raw_tweet['text']
+      #   #=> "THANK GOODNESS THE LIBRARY OF CONGRESS HAS UNDERSTOOD THE IMPORTANCE OF MY TWEETS what do you mean others are getting in too"
+      #
       def self.fetch_status status_id
         raw_status = get "http://twitter.com/statuses/show/#{status_id}.json"
         adapt(raw_status)

@@ -1,10 +1,10 @@
 module Titi::Fetcher
-  module Json
+  module CrackXml
     module ClassMethods
 
-      def parse raw_json_str
+      def parse raw_xml_str
         begin
-          return JSON.load(raw_json_str)
+          return Crack::XML.parse(raw_xml_str)
         rescue StandardError => e
           warn e
           return { }

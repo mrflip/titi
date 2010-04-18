@@ -5,7 +5,6 @@ module CompareToStandardExample
     File.join(STANDARD_EXAMPLE_DIR, filename)
   end
 
-  # TODO: custom matcher
   def standard_example_contents filename
     File.read(standard_example(filename))
   end
